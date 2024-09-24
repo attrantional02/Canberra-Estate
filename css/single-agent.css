@@ -1,0 +1,1066 @@
+#realestate-content  {
+    --primary-color: #4081FF;
+    --primary-color-700: #E6F2FF;
+    --secondary-color: #1F193B;
+    --primary-font-color: #070026;
+    --secondary-font-color: #E6F2FF;
+    --a-hover-color: #070026;
+    --heading-color: #070026;
+    --descprition-color: #73777D;
+    --deaf-font-color: #222222;
+    --deaf-font-color-600: #8894ad1f;
+    --deaf-font-color-400: #8894ad44;
+    --label-font-color: #151e42;
+    --input-font-color-700: #6d7ca3;
+    --input-font-color-500: #484f5f;
+    --input-border-color: #d4dcff;
+    --faded-font-color: #525c84;
+    --primary-disabled: #0075ff22;
+    --primary-border-color: #eaeef7;
+    --primary-border-color-600: #e5edf966;
+    --grid-text-color: #73777D;
+    --overlay-color: #000000;
+    --stats-bg-color: #F4F5F7;
+    --stars-color: #d1e4fa;
+    --dashboard-secondary-bg-color: #f5f9fd;
+    --black-700: #000000;
+    --white-700: #ffffff;
+    --white-500: #FFFFFFDE;
+    --white-200: #ffffff22;
+    --orange-700: #f8b849;
+    --purple-700: #4339f2;
+    --red-700: #fb295b;
+    --green-700: #34b53a;
+    --green-500: #00A884;
+    --grey-700: #808080;
+    --cyan-700: #28F8C0;
+    --golden-700: #F8BB18;
+    --input-radius: 10px;
+    --border-radius-lg: 20px;
+    --border-radius: 12px;
+    --border-radius-md: 16px;
+    --border-radius-xs: 4px;
+    --primary-font: 'inter';
+    --icons-font: "Font Awesome 6 Free";
+    --transition: 300ms;
+    --overlay-opacity: 0.6;
+    /* Icons Variables */
+    --chevron-down-icon-code: "\f078";
+    --heart-filled-icon-code: "\f004";
+    --star-filled-icon-code: "\f005";
+    --square-icon-code: "\f0c8";
+    --check-icon-code: "\f00c";
+    --circle-icon-code: "\f111";
+    --close-icon-code: "\f00d";
+    --marker-icon-code: "\f3c5";
+    --search-icon-code: "\f002";
+    --remove-heart-icon-code: "\e4ff";
+    --loading-icon: "\f110";
+    --bs-body-font-family: 'inter';
+}
+@media (min-width: 1400px) {
+    .realestate-agent-single-page .container,
+    .realestate-agent-single-page .container-lg,
+    .realestate-agent-single-page .container-md,
+    .realestate-agent-single-page .container-sm,
+    .realestate-agent-single-page .container-xl,
+    .realestate-agent-single-page .container-xxl {
+        max-width: 952px;
+    }
+}
+@media (min-width: 992px) {
+    .realestate-main-content-contaner .col-lg-7 {
+        width: calc(60% - 3px);
+    }
+    .realestate-main-content-contaner .col-lg-5 {
+        width: calc(40% + 3px);
+        padding-left: 20px;
+    }
+}
+
+/* agent info  */
+
+.realestate-agent-information-tab {
+    display: flex;
+    padding: 40px 0 24px 0;
+}
+
+.realestate-agent-information-tab .realestate-agent-badge {
+    width: 54px; 
+}
+
+.realestate-agent-information-tab {
+    display: flex;
+}
+
+.realestate-agent-information-tab .realestate-agent-thumb {
+    width: 132px;
+    position: relative;
+}
+
+.realestate-agent-information-tab .realestate-agent-info {
+    width: calc(100% - 200px);
+    position: relative;
+    padding: 0 14px;
+}
+
+.realestate-agent-information-tab .realestate-agent-thumb img {
+    width: 132px;
+    height: 132px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.realestate-agent-information-tab .realestate-agent-thumb .verified-agent {
+    position: absolute;
+    right: -10px;
+    top: 6px;
+}
+
+.realestate-agent-information-tab .realestate-agent-info p strong {
+    color: #070026;
+}
+
+.realestate-agent-information-tab .realestate-agent-info h1 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 6px;
+}
+
+.realestate-agent-information-tab .realestate-agent-thumb .agent-tag {
+    position: absolute;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 0 30px;
+    bottom: 6px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 126px;
+}
+
+.realestate-agent-information-tab .realestate-agent-thumb .agent-tag::after {
+    content: "";
+    height: 19px;
+    width: 19px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -13px;
+}
+
+.realestate-agent-information-tab .realestate-agent-thumb .agent-tag::before {
+    content: "";
+    height: 19px;
+    width: 19px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    left: -13px;
+}
+
+.realestate-single-breadmenus {
+    border-top: 1px solid #D6DBDF;
+    border-bottom: 1px solid #D6DBDF;
+    padding: 15px 0 16px 0;
+    line-height: 22px;
+}
+
+.realestate-single-breadmenus ul {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.realestate-agent-information-tab .agency-reviews ul {
+    display: flex;
+    gap: 4px;
+}
+
+.realestate-agent-information-tab .agency-reviews ul li {
+    font-size: 12px;
+    color: #ddd;
+}
+
+.realestate-agent-information-tab .agency-reviews ul li.filled {
+    color: #FCB808;
+}
+
+.realestate-agent-information-tab .agency-reviews {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 4px;
+}
+
+.realestate-agent-information-tab .agency-reviews p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.realestate-agent-information-tab .realestate-agent-info h5 {
+    font-size: 12px;
+    color: #73777D;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.realestate-agent-information-tab .realestate-agent-info h5 strong {
+    color: #070026;
+    margin-right: 5px;
+}
+
+.realestate-agent-information-tab .realestate-agent-info p {
+    font-size: 12px;
+    color: #73777D;
+}
+
+.realestate-single-breadmenus ul a {
+    font-size: 12px;
+    color: #72809D;
+    transition: var(--transition);
+    position: relative;
+}
+
+.realestate-single-breadmenus ul a:hover {
+    color: var(--primary-color);
+}
+
+.realestate-single-breadmenus ul span {
+    font-size: 12px;
+    color: #070026;
+    font-weight: 500;
+}
+
+.realestate-single-breadmenus ul a::after {
+    content: var(--chevron-down-icon-code);
+    font-family: var(--icons-font);
+    font-weight: 600;
+    transform: rotate(270deg);
+    position: absolute;
+    color: #141414;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.realestate-single-section h4 {
+    font-weight: 600;
+}
+
+.realestate-section-headings h4 {
+    margin-bottom: 2px;
+}
+
+.realestate-post-quick-actions .realestate-mail:hover path {
+    stroke: #fff;
+}
+
+.realestate-post-quick-actions .realestate-mail:hover svg path:nth-child(3) {
+    fill: #fff;
+    stroke: unset;
+}
+
+.realestate-single-content-container {
+    background: #F4F5F7;
+    padding: 24px 24px 63px 24px;
+}
+
+.realestate-single-section.single-border-section {
+    padding: 32px 31px;
+    margin-bottom: 24px;
+    background: #fff;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.realestate-single-section p {
+    font-size: 14px;
+    color: #73777D;
+}
+
+.agent-content-detail-features h6 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.agent-content-detail-features ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+
+.agent-content-detail-features ul li {
+    padding: 8px 24px 8px 16px;
+    border-radius: 4px;
+    background: #F9F9F9;
+    width: calc(100% / 4 - 9px);
+}
+
+.agent-content-detail-features ul li h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.agent-content-detail-features ul li p {
+    font-size: 10px;
+}
+
+.realestate-item.agent-style1 .agent-content-titles {
+    margin-bottom: 23px;
+}
+
+.agent-content-detail-features-main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.agent-content-detail-agent-map-highlited-pns {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.agent-content-detail-agent-map-highlited-pns .map-content-pins ul {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.agent-content-detail-agent-map-highlited-pns .map-content-pins ul li {
+    border: 1px solid #DFDFDF;
+    border-radius: 50px;
+    padding: 0px 8px;
+    color: #73777D;
+    font-size: 10px;
+    line-height: 17px;
+}
+
+.agent-content-detail-agent-map-highlited-pns .map-content-pins ul li span {
+    margin-bottom: -1px;
+    width: 10px;
+    display: inline-block;
+    height: 10px;
+    background: #FF5A50;
+    border-radius: 50%;
+    margin-right: 1px;
+}
+
+.agent-content-detail-agent-map-highlited-pns .map-content-pins ul .rent span {
+    background-color: #985DFF;
+}
+
+.agent-content-detail-agent-map-highlited-pns .map-content-pins ul .sold span {
+    background-color: #F2A619;
+}
+
+.agent-content-detail-agent-map-highlited .agent-content-detail-agent-map iframe {
+    width: 100%;
+    height: 319px;
+    border-radius: 4px;
+}
+
+
+/* sidebar  */
+
+.realestate-sidebar-top {
+    margin-top: -182px;
+    position: relative;
+}
+
+.realestate-single-sidebar.single-border-section {
+    padding: 32px;
+    background: #fff;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.realestate-single-sidebar h4 {
+    font-weight: 600; 
+}
+
+.realestate-agent-contact-details li {
+    display: flex;
+    width: 100%;
+}
+.submit-form-buttob-request {
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    transition: var(--transition);
+    color: var(--white-700);
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+.realestate-agent-contact-details li p,
+.realestate-agent-contact-details li h5 {
+    width: calc(100% / 2);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.realestate-agent-contact-details li p {
+    color: #596B82;
+}
+
+.realestate-agent-contact-details li h5 {
+    color: #2A2A33;
+    font-weight: 400;
+}
+
+.realestate-single-user-info {
+    padding: 0 24px;
+}
+
+.realestate-agent-contact-details li h5 a:hover {
+    opacity: 0.8;
+}
+
+
+/* user listings */
+
+.realestate-single-user-listings {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.realestate-single-user-listings-loop {
+    display: flex;
+    position: relative;
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+}
+
+.realestate-single-user-listings-loop .realestate-single-user-listings-thumb {
+    width: 193px;
+}
+
+.realestate-single-user-listings-loop .realestate-single-user-listings-content {
+    width: calc(100% - 193px);
+    padding: 9px 24px 10px 20px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.realestate-single-user-listings-loop .realestate-single-user-listings-thumb img {
+    width: 100%;
+    height: 141px;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.realestate-single-user-listings-loop .realestate-single-user-listings-thumb a {
+    display: inline;
+}
+
+.realestate-single-user-listings-loop .realestate-single-user-listings-content h2 {
+    font-size: 20px;
+    color: #23262A;
+}
+
+.realestate-single-user-listings-loop .realestate-single-user-listings-content .address {
+    font-size: 12px;
+    color: #73777D;
+}
+
+.realestate-single-user-listings-loop .realestate-single-user-listings-content .post-details ul {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.realestate-single-user-listings-loop .realestate-single-user-listings-content .post-details ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+    color: #717171;
+}
+
+.realestate-single-user-listings-loop .realestate-single-user-listings-content .post-details img {
+    max-width: 20px;
+}
+
+.realestate-single-user-listings-loop .realestate-single-user-listings-content .listing-status {
+    font-size: 10px;
+    color: #73777E;
+    display: flex;
+    justify-content: space-between;
+}
+
+.realestate-single-user-listings-loop .realestate-single-user-listings-content .listing-status img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.realestate-single-user-listings-loop .sold-status {
+    position: absolute;
+    right: 13px;
+    top: 16px;
+    font-size: 10px;
+    color: #F2A619;
+    background: #FFF8E0;
+    padding: 0px 7px;
+    border-radius: 4px;
+    line-height: 20px;
+}
+
+.realestate-single-user-listings-loop .sold-status.sold {
+    color: #F2A619;
+    background: #FFF8E0;
+}
+
+.realestate-single-user-listings-loop .sold-status.sale {
+    color: #FF5A50;
+    background: #FFE0E0;
+}
+
+.realestate-single-user-listings-loop .sold-status.rent {
+    color: #985DFF;
+    background: #F1E0FF;
+}
+
+.realestate-single-user-listings-loop .verified {
+    font-size: 10px;
+    color: #23262A;
+    position: absolute;
+    background: #fff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    left: 8px;
+    top: 8px;
+    padding: 0px 7px;
+}
+
+.realestate-load-more-lisitngs i {
+    border: 2px solid;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 1px 0;
+}
+
+.realestate-load-more-lisitngs.realestate-not-filled-btn {
+    padding: 14px 32px;
+    gap: 4px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.realestate-load-more-lisitngs.realestate-not-filled-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--white-700);
+}
+
+
+/* reviews  */
+
+.realestate-agent-reiews-details {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.realestate-agent-reiews-details .realestate-agent-main-info {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.realestate-agent-reiews-details h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #73777D;
+}
+
+.realestate-agent-reiews-details strong {
+    color: var(--heading-color);
+    margin-right: 4px;
+}
+
+.realestate-agent-reiews-details .agent-reviews ul {
+    display: flex;
+    gap: 4px;
+}
+
+.realestate-agent-reiews-details .agent-reviews ul li {
+    font-size: 12px;
+    color: #ddd;
+}
+
+.realestate-agent-reiews-details .agent-reviews ul li.filled {
+    color: #FCB808;
+}
+
+.realestate-agent-reiews-details .agent-reviews {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.realestate-agent-reiews-details .agent-reviews p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.real-estate-agent-reviews {
+    margin-top: 16px;
+}
+
+.real-estate-agent-reviews .realestate-agents-slider-reviews li {
+    width: calc(100% / 2) !important;
+}
+
+.real-estate-agent-reviews .realestate-agents-slider-reviews li button {
+    width: 100%;
+    border: unset;
+    background-color: #F4F5F7;
+    border-bottom: 1px solid #DFDFDF;
+    border-radius: unset;
+    text-transform: capitalize;
+    color: #73777D;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.real-estate-agent-reviews .realestate-agents-slider-reviews li .active {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.realestate-single-description {
+    max-height: 38px;
+    overflow: hidden;
+}
+
+.realestate-single-description.active {
+    max-height: 100% !important;
+}
+
+.realestate-single-description-content.realestate-section-list .realestate-list-description {
+    margin: 4px 0 12px 0;
+}
+
+.realestate-single-agent-reivews .realestate-single-agent-reivews-loop {
+    padding: 8px 16px;
+}
+
+.realestate-single-agent-reivews-loop {
+    background-color: #F4F5F7;
+    position: relative;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.realestate-single-agent-reivews-loop .realestate-single-description-content {
+    margin-bottom: 20px;
+}
+
+.realestate-single-agent-reivews-loop .agent-reviews p {
+    font-size: 10px;
+    color: #73777D;
+}
+
+.realestate-single-agent-reivews-loop .agent-reviews p i {
+    color: #FCB808;
+    margin-right: 4px;
+    font-size: 12px;
+}
+
+.realestate-single-agent-reivews-loop p {
+    color: #000000;
+    font-size: 12px;
+}
+
+.realestate-single-agent-reivews-loop .agent-reviews p strong {
+    color: #000000;
+    font-weight: 700;
+}
+
+.realestate-single-agent-reivews-loop .agent-reviews ul {
+    display: flex;
+    gap: 4px;
+}
+
+.realestate-single-agent-reivews-loop .agent-reviews ul li {
+    font-size: 12px;
+    color: #ddd;
+}
+
+.realestate-single-agent-reivews-loop .agent-reviews ul li.filled {
+    color: #FCB808;
+}
+
+.realestate-single-agent-reivews-loop .agent-reviews {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.realestate-list-description {
+    background: #fff0;
+    border: unset;
+    padding: 0;
+    transition: var(--transition);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    color: var(--primary-color);
+    font-size: 12px;
+}
+
+.realestate-list-description.active i {
+    transform: rotate(179deg);
+}
+
+.realestate-single-agent-reivews-loop h6 {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.realestate-single-descriptions-content p {
+    color: #73777D;
+}
+
+.realestate-single-agent-reivews-loop .review-owner {
+    display: flex;
+    align-items: center;
+}
+
+.realestate-single-agent-reivews-loop .review-owner img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 4px;
+    object-fit: cover;
+}
+
+.realestate-single-agent-reivews {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.realestate-single-agent-reivews-loop .realestate-single-descriptions-content {
+    margin-bottom: 20px;
+}
+
+#reviews .realestate-single-description-content .realestate-list-description {
+    margin-top: 5px;
+}
+
+.realestate-single-agent-reivews-loop .verified-review {
+    position: absolute;
+    right: 18px;
+    top: 9px;
+    color: #000000;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.realestate-agents-slider-reviews {
+    margin-bottom: 16px;
+}
+
+
+/* reviews form  */
+
+.agent-reviews-user-submission-form p {
+    font-size: 10px;
+    color: #73777D;
+}
+
+.agent-reviews-user-submission-form p i {
+    color: #FCB808;
+    margin-right: 4px;
+    font-size: 12px;
+}
+
+.agent-reviews-user-submission-form p strong {
+    color: #000000;
+    font-weight: 700;
+}
+
+.agent-reviews-user-submission-form ul {
+    display: flex;
+    gap: 4px;
+}
+
+.agent-reviews-user-submission-form ul li {
+    font-size: 12px;
+    color: #ddd;
+}
+
+.agent-reviews-user-submission-form ul li.filled {
+    color: #FCB808;
+}
+
+.realestate-single-description p {
+    color: #73777D;
+}
+
+
+/* contact form css  */
+
+.realestate-form-inputs label {
+    margin-bottom: 4px;
+    display: block;
+}
+
+.realestate-form-inputs .realetstae-form-group-radio-list input {
+    display: none;
+}
+
+.realestate-form-inputs .realetstae-form-group-radio {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.realestate-form-inputs .realetstae-form-group-radio-list label {
+    margin: 0;
+    font-size: 12px;
+    color: #121212;
+    border: 1px solid #C9D1E5;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 3px 12px;
+}
+
+.realestate-form-inputs .realetstae-form-group-radio-list input:checked+label {
+    border-color: #35415E;
+    color: #070026;
+    background-color: #F3F6FF;
+}
+
+.realestate-single-contact-form .realestate-form-inputs {
+    margin-bottom: 16px;
+}
+
+.realestate-single-contact-form .realestate-form-inputs input {
+    background: #F4F5F7;
+    border: 1px solid #B2BAC0;
+    border-radius: 4px;
+    height: 44px;
+    width: 100%;
+    padding: 3px 16px;
+    color: #73777D;
+    font-size: 14px;
+}
+
+.realestate-single-contact-form .realestate-form-inputs textarea {
+    background: #F4F5F7;
+    border: 1px solid #F1F1F1;
+    border-radius: 4px;
+    resize: none;
+    height: 92px;
+    width: 100%;
+    padding: 3px 16px;
+    color: #73777D;
+    font-size: 14px;
+}
+
+.realestate-single-contact-form .select2-selection.select2-selection--single.select2-selection--clearable {
+    background: #F4F5F7;
+    border: 1px solid #B2BAC0;
+    border-radius: 4px;
+    height: 44px;
+    width: 100%;
+    padding: 3px 16px;
+    color: #73777D;
+    font-size: 14px;
+}
+
+.realestate-single-contact-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 37px;
+    padding: 0;
+    background: #F4F5F7;
+    color: #73777D;
+    font-size: 14px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    display: none;
+}
+
+.realestate-single-contact-form .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 8px;
+    right: 6px;
+}
+
+.realestate-single-contact-form .realestate-form-inputs .realetstae-form-group-radio {
+    padding-bottom: 8px;
+    padding-top: 4px;
+}
+
+.agent-form-submission input[type="submit"] {
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    transition: var(--transition);
+    color: var(--white-700);
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 3px;
+}
+
+.agent-form-submission input[type="submit"]:hover {
+    background-color: var(--primary-color-700);
+    color: var(--primary-color);
+}
+
+.realestate-single-video iframe {
+    border-radius: 8px;
+    width: 100%;
+    height: 292px;
+}
+
+.realestate-single-description-content.realestate-section-list .realestate-single-description {
+    max-height: 84px;
+}
+
+.realestate-single-description-content.realestate-section-list .realestate-single-description li {
+    font-size: 14px;
+    color: #73777D;
+}
+
+.realestate-single-video {
+    margin: 16px 0 9px 0;
+}
+
+.realestate-single-description-content.realestate-section-list h6 {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.realestate-single-description-content.realestate-section-list .realestate-single-description ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+@media(max-width:768px) {
+    .realestate-single-content-container {
+        padding: 20px 0;
+    }
+    .realestate-single-breadmenus {
+        display: none;
+    }
+    .realestate-single-section.single-border-section {
+        padding: 20px;
+    }
+    .realestate-sidebar-top {
+        margin-top: 0;
+    }
+    .agent-content-detail-features ul li {
+        width: calc(100% / 2 - 9px);
+    }
+    .realestate-single-user-listings-loop {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .realestate-single-breadmenus ul {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .realestate-single-user-listings-loop .realestate-single-user-listings-thumb,
+    .realestate-single-user-listings-loop .realestate-single-user-listings-content {
+        width: 100% !important;
+        border-radius: 8px;
+        overflow: hidden;
+        padding: 7px 0 0 0;
+    }
+    .realestate-agent-information-tab {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 12px;
+    }
+    .realestate-agent-reiews-details {
+        flex-wrap: wrap;
+    }
+    .realestate-agent-information-tab .realestate-agent-badge {
+        position: absolute;
+        top: 16px;
+        right: 0;
+    }
+    .realestate-agent-information-tab .agency-reviews {
+        justify-content: center;
+    }
+    .realestate-agent-information-tab .realestate-agent-info {
+        width: 100%;
+        text-align: center;
+    }
+}
+.single-realestate-sidebar-top.sticky {
+    position: fixed;
+    top: 30px;
+    z-index: 999999;
+}
+.single-realestate-sidebar-top.sticky.footers-section {
+    position: absolute;
+    bottom: 0 !IMPORTANT;
+    top: unset;
+}
+.realestate-header.agent-header .realestate-navigation-nav ul a:hover {
+    background-color: #E6F2FF;
+    color: #4081FF;
+}
+
+.realestate-header.agent-header .realestate-header-container {
+    padding: 56px 24px;
+}
+
+.realestate-single-sidebar.single-border-section.two {
+    gap: 10px;
+}
+
+#properties {
+    gap: 12px;
+}
+.agent-single-verified-badge {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #23262A;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid #717171;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 999;
+    background: #fff;
+    top: 8px;
+    left: 9px;
+    padding: 0px 5px;
+}

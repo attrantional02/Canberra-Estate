@@ -1,0 +1,118 @@
+body  {
+    --primary-color: #BC7635;
+    --primary-color-700: #FFF5EC;
+    --secondary-color: #1F193B;
+    --primary-font-color: #070026;
+    --secondary-font-color: #E6F2FF;
+    --a-hover-color: #BC7635;
+    --heading-color: #070026;
+    --descprition-color: #73777D;
+    --deaf-font-color: #222222;
+    --deaf-font-color-600: #8894ad1f;
+    --deaf-font-color-400: #8894ad44;
+    --label-font-color: #151e42;
+    --input-font-color-700: #6d7ca3;
+    --input-font-color-500: #484f5f;
+    --input-border-color: #d4dcff;
+    --faded-font-color: #525c84;
+    --primary-disabled: #0075ff22;
+    --primary-border-color: #eaeef7;
+    --primary-border-color-600: #e5edf966;
+    --grid-text-color: #73777D;
+    --overlay-color: #000000;
+    --stats-bg-color: #F4F5F7;
+    --stars-color: #d1e4fa;
+    --dashboard-secondary-bg-color: #f5f9fd;
+    --black-700: #000000;
+    --white-700: #ffffff;
+    --white-500: #FFFFFFDE;
+    --white-200: #ffffff22;
+    --orange-700: #f8b849;
+    --purple-700: #4339f2;
+    --red-700: #fb295b;
+    --green-700: #34b53a;
+    --green-500: #00A884;
+    --grey-700: #808080;
+    --cyan-700: #28F8C0;
+    --golden-700: #F8BB18;
+    --input-radius: 10px;
+    --border-radius-lg: 20px;
+    --border-radius: 12px;
+    --border-radius-md: 16px;
+    --border-radius-xs: 4px;
+    --primary-font: 'Urbanist';
+    --icons-font: "Font Awesome 6 Free";
+    --transition: 300ms;
+    --overlay-opacity: 0.6;
+    /* Icons Variables */
+    --chevron-down-icon-code: "\f078";
+    --heart-filled-icon-code: "\f004";
+    --star-filled-icon-code: "\f005";
+    --square-icon-code: "\f0c8";
+    --check-icon-code: "\f00c";
+    --circle-icon-code: "\f111";
+    --close-icon-code: "\f00d";
+    --marker-icon-code: "\f3c5";
+    --search-icon-code: "\f002";
+    --remove-heart-icon-code: "\e4ff";
+    --loading-icon: "\f110";
+    --bs-body-font-family: 'Urbanist';
+}
+.realestate-pro-footer {
+    background-color: #F7F7F7;
+    border-top: 1px #DFDFDF solid;
+}
+
+.realestate-pro-footer .footer-links ul {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.realestate-pro-footer .footer-links ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.realestate-pro-footer .footer-links ul li {
+    color: var(--primary-font-color);
+}
+
+.realestate-pro-footer {
+    padding: 22px 0px;
+}
+.realestate-pro-footer .logo-img {
+    max-width: 200px;
+}
+.realestate-pro-footer .footer-description p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--primary-font-color);
+    margin-top: 12px;
+}
+
+.realestate-pro-footer .app-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.realestate-pro-footer .footer-logo-app {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.realestate-pro-footer .footer-links a {
+    color: var(--primary-font-color);
+}
+
+.realestate-pro-footer .footer-links a:hover {
+    color: var(--primary-color);
+}
+
+.realestate-pro-footer .footer-links p {
+    font-size: 14px;
+    color: #707A95;
+}

@@ -1,0 +1,412 @@
+/* defaults styles  */
+
+
+/* This is because whare headers change then the color cheme and also fonts changed */
+#realestate-content {
+    --primary-color: #D21312;
+    --primary-color-700: #FFE2E2;
+    --secondary-color: #1F193B;
+    --primary-font-color: #7A7A7A;
+    --secondary-font-color: #152242;
+    --a-hover-color: #D21312;
+    --heading-color: #070026;
+    --descprition-color: #808080;
+    --deaf-font-color: #222222;
+    --deaf-font-color-600: #8894ad1f;
+    --deaf-font-color-400: #8894ad44;
+    --label-font-color: #151e42;
+    --input-font-color-700: #6d7ca3;
+    --input-font-color-500: #6d7ca388;
+    --input-font-color-500: #484f5f;
+    --input-border-color: #d4dcff;
+    --faded-font-color: #525c84;
+    --primary-disabled: #0075ff22;
+    --primary-border-color: #e5edf9;
+    --primary-border-color-600: #e5edf966;
+    --primary-border-color: #eaeef7;
+    --grid-text-color: #424857;
+    --grid-text-color: #808080;
+    --overlay-color: #000000;
+    --stats-bg-color: #F4F5F7;
+    --stars-color: #d1e4fa;
+    --dashboard-secondary-bg-color: #f5f9fd;
+    --black-700: #000000;
+    --white-700: #ffffff;
+    --white-500: #FFFFFFDE;
+    --white-200: #ffffff22;
+    --orange-700: #f8b849;
+    --purple-700: #4339f2;
+    --red-700: #fb295b;
+    --green-700: #34b53a;
+    --green-500: #00A884;
+    --grey-700: #808080;
+    --cyan-700: #28F8C0;
+    --golden-700: #F8BB18;
+    --input-radius: 10px;
+    --border-radius-lg: 20px;
+    --border-radius: 12px;
+    --border-radius-md: 16px;
+    --border-radius-xs: 4px;
+    --primary-font: 'Urbanist';
+    --icons-font: "Font Awesome 6 Free", emoji;
+    --transition: 300ms;
+    --overlay-opacity: 0.6;
+    /* Icons Variables */
+    --chevron-down-icon-code: "\f078";
+    --heart-filled-icon-code: "\f004";
+    --star-filled-icon-code: "\f005";
+    --square-icon-code: "\f0c8";
+    --check-icon-code: "\f00c";
+    --circle-icon-code: "\f111";
+    --close-icon-code: "\f00d";
+    --marker-icon-code: "\f3c5";
+    --search-icon-code: "\f002";
+    --remove-heart-icon-code: "\e4ff";
+    --loading-icon: "\f110";
+    --bs-body-font-family: 'Urbanist';
+}
+
+
+/**
+ * Default CSS Start
+ *
+ * This CSS Will Be Overwrite With Dynamic CSS
+ */
+
+@media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1120px;
+    }
+}
+
+body {
+    font-size: 13px;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-family: var(--bs-body-font-family);
+    color: var(--grid-text-color);
+    margin: 0 0 0 0;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.3em;
+    font-weight: 700;
+    font-family: var(--bs-body-font-family);
+    color: var(--heading-color);
+    margin: 0 0 0 0;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 1.5em;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: var(--heading-color);
+    margin: 0 0 0 0;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 1.5em;
+    font-weight: 700;
+    font-family: var(--bs-body-font-family);
+    color: var(--secondary-font-color);
+    margin: 0 0 0 0;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-family: var(--bs-body-font-family);
+    color: var(--heading-color);
+    margin: 0 0 0 0;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: var(--heading-color);
+    margin: 0 0 0 0;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: var(--heading-color);
+    margin: 0 0 0 0;
+    transition: .2s;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-family: var(--bs-body-font-family);
+    color: var(--descprition-color);
+    margin: 0 0 0 0;
+}
+
+a {
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-family: var(--bs-body-font-family);
+    color: var(--primary-font-color);
+    margin: 0 0 0 0;
+    transition: var(--transition);
+    display: inline-block;
+    text-decoration: none;
+}
+
+.realestate-not-filled-btn {
+    border: unset;
+    background-color: var(--primary-color-700);
+    color: var(--primary-color);
+    font-size: 14px;
+    font-family: var(--bs-body-font-family);
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    padding: 12px 16px;
+    border-radius: 4px;
+}
+ 
+
+ .realestate-load-more-lisitngs.realestate-not-filled-btn {
+    gap: 0;
+    padding: 12px 23px;
+}
+/* Start header css  */
+
+:root {
+    --home-header-bg: #fff;
+    --inner-header-bg: #070026;
+}
+
+
+/* real-estate-pro-header-start */
+
+.real-estate-pro-header {
+    padding: 24px 0px;
+    background: var(--home-header-bg);
+}
+
+.real-estate-pro-header .logo-location {
+    gap: 6px;
+}
+
+.real-estate-pro-header .navigation-menu-buttons {
+    gap: 24px;
+}
+.real-estate-pro-header .logo-location .logo {
+    max-width: 200px;
+}
+.real-estate-pro-header .location-navigation a::before {
+    font-family: 'Font Awesome 6 Free';
+    content: '\f124';
+    font-weight: 900;
+    color: black;
+}
+
+.real-estate-pro-header .navigation-sec-off-canvas {
+    display: none;
+}
+
+.real-estate-pro-header .navigation-sec-off-canvas button.btn.btn-primary {
+    background-color: #D21312;
+    color: #fff;
+    border: none;
+}
+
+.real-estate-pro-header .navigation-sec-off-canvas button.btn.btn-primary:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.real-estate-pro-header .location-navigation {
+    padding: 2px 6px;
+    box-shadow: 0px 0px 6px 0px rgb(217 217 217);
+    border-radius: 4px;
+}
+
+.real-estate-pro-header .location-navigation a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.real-estate-pro-header .navigation-menu li a {
+    color: var(--primary-font-color);
+}
+
+.real-estate-pro-header .navigation-menu li a:hover {
+    color: var(--a-hover-color);
+}
+
+.real-estate-pro-header .navigation-menu ul {
+    gap: 24px;
+}
+
+.real-estate-pro-header .navigation-menu ul i {
+    margin-right: 4px;
+}
+
+.real-estate-pro-header .navigation-buttons {
+    gap: 8px;
+}
+
+.real-estate-pro-header .navigation-buttons .post-an-add-button a {
+    padding: 7px 18px;
+    background-color: var(--primary-color);
+    border: unset;
+    border-radius: 6px;
+    font-size: 12px;
+    font-family: var(--bs-body-font-family);
+    font-weight: 600;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+
+.real-estate-pro-header .navigation-buttons .post-an-add-button a:hover {
+    background-color: var(--primary-color-700);
+    color: var(--primary-color);
+}
+ 
+.real-estate-pro-header .navigation-buttons .singup-button button {
+    padding: 6px 16px;
+    background-color: var(--primary-color-700);
+    border: unset;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: var(--bs-body-font-family);
+    font-weight: 500;
+    color: var(--primary-color);
+    transition: 0.4s ease-in-out;
+}
+
+.real-estate-pro-header .navigation-buttons .singup-button button:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+.real-estate-pro-header .navigation-buttons .post-an-add-button a::before {
+    font-family: 'Font Awesome 6 Free';
+    content: '\f055';
+    font-weight: 900;
+    margin-right: 4px;
+}
+
+
+/* real-estate-pro-banner-top-catagories-start */
+
+.real-estate-pro-banner-top-catagories ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 8px;
+}
+
+.real-estate-pro-banner-top-catagories ul a {
+    color: var(--secondary-font-color);
+    font-weight: 500;
+}
+
+.real-estate-pro-banner-top-catagories ul a:hover {
+    color: var(--primary-color);
+}
+
+.realestate-navigation-nav-menus .sub-menu a {
+    min-width: 150px;
+    color: var(--primary-font-color);
+    font-size: 13px;
+    border-bottom: 1px solid #dddddd5c;
+    padding: 8px 13px;
+    border-radius: 0;
+}
+.realestate-navigation-nav-menus .sub-menu i{
+    color: var(--primary-font-color) !important;
+}
+.realestate-navigation-nav-menus .sub-menu li:first-child a {
+    border-radius: 8px 8px 0 0;
+}
+
+.realestate-navigation-nav-menus .sub-menu li:last-child a {
+    border-radius: 0 0 8px 8px;
+}
+
+.realestate-navigation-nav-menus .sub-menu li:last-child a {
+    border: unset;
+}
+
+.realestate-navigation-nav-menus .sub-menu {
+    border-color: #ffffff00;
+    border-radius: 8px;
+    box-shadow: 9px 16px 57px 0 #00000029;
+    z-index: 9999;
+    background: var(--white-700);
+    position: absolute;
+    border-color: #ffffff00;
+    border-radius: 8px;
+    box-shadow: 9px 16px 57px 0 #00000029;
+    background: var(--white-700);
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.2s;
+    visibility: hidden;
+    transform: scale(0.8) translate(0px, -32px);
+}
+
+.realestate-navigation-nav-menus li:hover>.sub-menu {
+    transform: scale(1) translate(0px, 5px);
+    opacity: 1;
+    gap: 0 !important;
+    visibility: visible;
+}
+
+.realestate-navigation-nav-menus .sub-menu::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    z-index: -1;
+    top: -6px;
+    left: 15px;
+    transform: rotate(45deg);
+}
+
+.realestate-navigation-nav-menus i {
+    color: var(--primary-font-color);
+    transition: var(--transition);
+    font-size: 10px;
+    margin-top: -1px;
+    margin-left: 3px;
+}
+
+.realestate-navigation-nav-menus .sub-menu .sub-menu::after {
+    left: unset;
+    right: -6px;
+    top: 9px;
+}
+
+.realestate-navigation-nav-menus .sub-menu .sub-menu {
+    left: -155px;
+    top: 0;
+}
+
+.realestate-navigation-nav-menus li:hover>a i {
+    transform: rotate(180deg);
+}

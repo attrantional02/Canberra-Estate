@@ -1,0 +1,248 @@
+body  {
+    --primary-color: #BC7635;
+    --primary-color-700: #FFF5EC;
+    --secondary-color: #1F193B;
+    --primary-font-color: #070026;
+    --secondary-font-color: #E6F2FF;
+    --a-hover-color: #BC7635;
+    --heading-color: #070026;
+    --descprition-color: #73777D;
+    --deaf-font-color: #222222;
+    --deaf-font-color-600: #8894ad1f;
+    --deaf-font-color-400: #8894ad44;
+    --label-font-color: #151e42;
+    --input-font-color-700: #6d7ca3;
+    --input-font-color-500: #484f5f;
+    --input-border-color: #d4dcff;
+    --faded-font-color: #525c84;
+    --primary-disabled: #0075ff22;
+    --primary-border-color: #eaeef7;
+    --primary-border-color-600: #e5edf966;
+    --grid-text-color: #73777D;
+    --overlay-color: #000000;
+    --stats-bg-color: #F4F5F7;
+    --stars-color: #d1e4fa;
+    --dashboard-secondary-bg-color: #f5f9fd;
+    --black-700: #000000;
+    --white-700: #ffffff;
+    --white-500: #FFFFFFDE;
+    --white-200: #ffffff22;
+    --orange-700: #f8b849;
+    --purple-700: #4339f2;
+    --red-700: #fb295b;
+    --green-700: #34b53a;
+    --green-500: #00A884;
+    --grey-700: #808080;
+    --cyan-700: #28F8C0;
+    --golden-700: #F8BB18;
+    --input-radius: 10px;
+    --border-radius-lg: 20px;
+    --border-radius: 12px;
+    --border-radius-md: 16px;
+    --border-radius-xs: 4px;
+    --primary-font: 'Urbanist';
+    --icons-font: "Font Awesome 6 Free";
+    --transition: 300ms;
+    --overlay-opacity: 0.6;
+    /* Icons Variables */
+    --chevron-down-icon-code: "\f078";
+    --heart-filled-icon-code: "\f004";
+    --star-filled-icon-code: "\f005";
+    --square-icon-code: "\f0c8";
+    --check-icon-code: "\f00c";
+    --circle-icon-code: "\f111";
+    --close-icon-code: "\f00d";
+    --marker-icon-code: "\f3c5";
+    --search-icon-code: "\f002";
+    --remove-heart-icon-code: "\e4ff";
+    --loading-icon: "\f110";
+    --bs-body-font-family: 'Urbanist';
+}
+
+.col-help-to-sell-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 28px 28px 22px 28px;
+ }
+ .help-to-sell-two .slick-slide {
+    margin-right: 29px;
+}
+ .help-to-sell-two .slick-slide .realestate-property-grids.style3 {
+    max-width: 356px !important;
+    width: 356px !important;
+}
+ .realestate-property-grids .realestate-property-grids-content {
+     height: 100%;
+     width: 100%;
+     transition: var(--transition);
+     min-height: 429px;
+     object-fit: cover;
+ }
+ 
+ .realestate-property-grids {
+     position: relative;
+     background-size: cover;
+     border-radius: 12px;
+     min-height: 429px;
+     margin: 0 10px;
+     overflow: hidden;
+ }
+ 
+ .help-to-sell-two .style3 {
+     max-width: 358px;
+ }
+ 
+ .realestate-property-grids.style3 h3 {
+     color: var(--white-700);
+     font-weight: 600;
+     transition: var(--transition);
+     margin-bottom: 4px;
+ }
+ 
+ .col-sec-half-section-help-to-sell .col-help-to-sell-two-heading:hover h3 {
+     color: var(--primary-color);
+ }
+ 
+ .realestate-property-grids.style3 .col-help-to-sell-two-value h3 {
+     margin: 0;
+     font-size: 25px;
+ }
+ 
+ .realestate-property-grids:hover .realestate-property-grids-content {
+     transform: scale(1.1);
+ }
+ 
+ .col-sec-half-section-help-to-sell .col-help-to-sell-two-info {
+     margin-bottom: -35px;
+     transition: 0.8s;
+ }
+ 
+ .col-sec-half-section-help-to-sell .col-help-to-sell-two-value {
+     margin-bottom: -42px;
+     transition: 0.2s;
+ }
+ 
+ .realestate-property-grids:hover .col-help-to-sell-two-value,
+ .realestate-property-grids:hover .col-help-to-sell-two-info {
+     margin: 0;
+ }
+ 
+ .realestate-property-grids::after {
+     content: '';
+     position: absolute;
+     left: 0;
+     right: 0;
+     transition: var(--transition);
+     bottom: 0;
+     top: 0;
+     opacity: 0.4;
+     z-index: 0;
+     background-image: linear-gradient(0deg, #00000070, #0000005e);
+ }
+ 
+ .realestate-property-grids:hover::after {
+     opacity: 1;
+ }
+ 
+ .help-to-sell-two-tag-one p {
+     border-radius: 33px;
+     background: var(--primary-color);
+     color: var(--white-700);
+     padding: 2px 12px;
+     text-transform: uppercase;
+     margin: 0;
+     font-family: var(--primary-font);
+     font-weight: 600;
+     font-size: 12px;
+     line-height: 26px;
+ }
+ 
+ .help-to-sell-two-tag-one.color-change p {
+     background: var(--black-700);
+ }
+ 
+ .col-help-to-sell-two-tags {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 8px;
+ }
+ 
+ .col-help-to-sell-two-info ul {
+     padding: 10px 0 8px 0;
+     margin: 0;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 3px;
+     color: var(--white-700);
+     font-family: var(--primary-font);
+     font-size: 13px;
+     font-weight: 400;
+ }
+ 
+ .col-sec-half-section-help-to-sell {
+     overflow: hidden;
+ }
+ 
+ .col-help-to-sell-two-info ul li {
+     padding: 0 4px 0 0;
+     display: flex;
+     align-items: center;
+     gap: 7px;
+ }
+ 
+ .help-to-sell-two .slick-list.draggable {
+     overflow: unset;
+ }
+ 
+ .help-to-sell-two .slick-arrow {
+     position: absolute;
+     bottom: -60px;
+     left: 0;
+     right: 0;
+     border-radius: 19.5px;
+     background: var(--primary-color);
+     color: var(--white-700);
+     width: 24px;
+     height: 24px;
+     margin: auto;
+     font-size: 0;
+     border: unset;
+     display: flex;
+     align-items: center;
+     line-height: 34px;
+     justify-content: center;
+ }
+ /* slick disable class */
+ 
+ .help-to-sell-two .slick-prev {
+     left: -38px;
+ }
+ 
+ .help-to-sell-two .slick-next {
+     right: -40px;
+     color: #fff;
+ }
+ 
+ .help-to-sell-two .slick-arrow.slick-disabled {
+     background-color: #E7E7E7;
+ }
+ 
+ .help-to-sell-two .slick-arrow::after {
+     content: "\f060";
+     font-family: var(--icons-font);
+     font-size: 18px;
+     font-weight: 700;
+     position: absolute;
+     font-size: 12px;
+ }
+ 
+ .help-to-sell-two .slick-next::after {
+     transform: rotate(180deg);
+ }

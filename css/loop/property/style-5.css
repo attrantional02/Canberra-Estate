@@ -1,0 +1,199 @@
+body  {
+    --primary-color: #BC7635;
+    --primary-color-700: #FFF5EC;
+    --secondary-color: #1F193B;
+    --primary-font-color: #070026;
+    --secondary-font-color: #E6F2FF;
+    --a-hover-color: #BC7635;
+    --heading-color: #070026;
+    --descprition-color: #73777D;
+    --deaf-font-color: #222222;
+    --deaf-font-color-600: #8894ad1f;
+    --deaf-font-color-400: #8894ad44;
+    --label-font-color: #151e42;
+    --input-font-color-700: #6d7ca3;
+    --input-font-color-500: #484f5f;
+    --input-border-color: #d4dcff;
+    --faded-font-color: #525c84;
+    --primary-disabled: #0075ff22;
+    --primary-border-color: #eaeef7;
+    --primary-border-color-600: #e5edf966;
+    --grid-text-color: #73777D;
+    --overlay-color: #000000;
+    --stats-bg-color: #F4F5F7;
+    --stars-color: #d1e4fa;
+    --dashboard-secondary-bg-color: #f5f9fd;
+    --black-700: #000000;
+    --white-700: #ffffff;
+    --white-500: #FFFFFFDE;
+    --white-200: #ffffff22;
+    --orange-700: #f8b849;
+    --purple-700: #4339f2;
+    --red-700: #fb295b;
+    --green-700: #34b53a;
+    --green-500: #00A884;
+    --grey-700: #808080;
+    --cyan-700: #28F8C0;
+    --golden-700: #F8BB18;
+    --input-radius: 10px;
+    --border-radius-lg: 20px;
+    --border-radius: 12px;
+    --border-radius-md: 16px;
+    --border-radius-xs: 4px;
+    --primary-font: 'Urbanist';
+    --icons-font: "Font Awesome 6 Free";
+    --transition: 300ms;
+    --overlay-opacity: 0.6;
+    /* Icons Variables */
+    --chevron-down-icon-code: "\f078";
+    --heart-filled-icon-code: "\f004";
+    --star-filled-icon-code: "\f005";
+    --square-icon-code: "\f0c8";
+    --check-icon-code: "\f00c";
+    --circle-icon-code: "\f111";
+    --close-icon-code: "\f00d";
+    --marker-icon-code: "\f3c5";
+    --search-icon-code: "\f002";
+    --remove-heart-icon-code: "\e4ff";
+    --loading-icon: "\f110";
+    --bs-body-font-family: 'Urbanist';
+}
+/* Box content start */
+
+.realestate-loop-popular-properties-boxes {
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.realestate-loop-popular-properties-image-box {
+    position: relative;
+}
+.realestate-loop-popular-properties-image{
+    height: 180px;
+    overflow: hidden; 
+}
+.realestate-loop-popular-properties-image img {
+    object-fit: cover;
+    transition: 0.3s;
+    width: 100%;
+    height: 180px;
+}
+.realestate-loop-popular-properties-boxes:hover .realestate-loop-popular-properties-image img {
+    transform: scale(1.2);
+}
+.realestate-loop-popular-properties-boxes.larg .featured {
+    top: 20px;
+    left: 21px;
+    gap: 9px;
+}
+.realestate-loop-popular-properties-boxes.larg .properties-details {
+    padding: 21px 18px 23px 18px;
+}
+.featured {
+    position: absolute;
+    top: 10px;
+    background: var(--primary-color);
+    color: white;
+    left: 10px;
+    border-radius: 6px;
+    padding: 2px 12px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.realestate-loop-popular-properties-image a {
+    display: inline;
+}
+
+.realestate-loop-popular-properties-boxes .properties-details h5 {
+    font-size: 15px;
+    transition: var(--transition);
+    margin-bottom: 7px;
+}
+
+.realestate-loop-popular-properties-boxes .properties-details h5:hover {
+    color: var(--primary-color);
+}
+ 
+.properties-details {
+    padding: 18px;
+    border: 1px solid #dddddd;
+    border-top: unset;
+}
+
+.properties-details ul {
+    display: flex;
+    gap: 14px;
+}
+
+.properties-social-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+}
+.properties-social-details p {
+    color: #181A20;
+    font-size: 13px;
+}
+.properties-details li {
+    color: #181A20;
+    font-size: 13px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.properties-details ul {
+    padding-bottom: 8px;
+}
+
+.realestate-loop-popular-properties-boxes .properties-details .p-md {
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #717171;
+}
+.realestate-loop-popular-properties-boxes.small .properties-social-details ul {
+    gap: 24px;
+}
+.properties-social-details {
+    padding-top: 16px;
+    border-top: 1px solid #DDDDDD;
+    padding-bottom: 2px;
+}
+  .properties-price {
+    color: #181A20;
+}
+.properties-social-details .properties-social-details-ul li {
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+}
+.realestate-loop-popular-properties-boxes.small .properties-details ul {
+    gap: 0px;
+}
+.realestate-loop-popular-properties-boxes.small .properties-details ul li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.sale {
+    margin: 0 !important;
+}
+
+.properties-social-details-ul {
+    padding: 0 !important;
+}
+
+.properties-social-details-ul img {
+    width: 15px;
+    height: 15px;
+}
+
+
+/* Box content End */

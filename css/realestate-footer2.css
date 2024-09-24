@@ -1,0 +1,165 @@
+body  {
+    --primary-color: #BC7635;
+    --primary-color-700: #FFF5EC;
+    --secondary-color: #1F193B;
+    --primary-font-color: #070026;
+    --secondary-font-color: #E6F2FF;
+    --a-hover-color: #BC7635;
+    --heading-color: #070026;
+    --descprition-color: #73777D;
+    --deaf-font-color: #222222;
+    --deaf-font-color-600: #8894ad1f;
+    --deaf-font-color-400: #8894ad44;
+    --label-font-color: #151e42;
+    --input-font-color-700: #6d7ca3;
+    --input-font-color-500: #484f5f;
+    --input-border-color: #d4dcff;
+    --faded-font-color: #525c84;
+    --primary-disabled: #0075ff22;
+    --primary-border-color: #eaeef7;
+    --primary-border-color-600: #e5edf966;
+    --grid-text-color: #73777D;
+    --overlay-color: #000000;
+    --stats-bg-color: #F4F5F7;
+    --stars-color: #d1e4fa;
+    --dashboard-secondary-bg-color: #f5f9fd;
+    --black-700: #000000;
+    --white-700: #ffffff;
+    --white-500: #FFFFFFDE;
+    --white-200: #ffffff22;
+    --orange-700: #f8b849;
+    --purple-700: #4339f2;
+    --red-700: #fb295b;
+    --green-700: #34b53a;
+    --green-500: #00A884;
+    --grey-700: #808080;
+    --cyan-700: #28F8C0;
+    --golden-700: #F8BB18;
+    --input-radius: 10px;
+    --border-radius-lg: 20px;
+    --border-radius: 12px;
+    --border-radius-md: 16px;
+    --border-radius-xs: 4px;
+    --primary-font: 'Urbanist';
+    --icons-font: "Font Awesome 6 Free";
+    --transition: 300ms;
+    --overlay-opacity: 0.6;
+    /* Icons Variables */
+    --chevron-down-icon-code: "\f078";
+    --heart-filled-icon-code: "\f004";
+    --star-filled-icon-code: "\f005";
+    --square-icon-code: "\f0c8";
+    --check-icon-code: "\f00c";
+    --circle-icon-code: "\f111";
+    --close-icon-code: "\f00d";
+    --marker-icon-code: "\f3c5";
+    --search-icon-code: "\f002";
+    --remove-heart-icon-code: "\e4ff";
+    --loading-icon: "\f110";
+    --bs-body-font-family: 'Urbanist';
+}
+/* footer style 2 start */
+
+footer {
+    background-color: #251302;
+}
+
+.footer-style2>* h2,
+.footer-style2>* h3,
+.footer-style2>* h4,
+.footer-style2>* h5 {
+    color: #808080;
+    margin-bottom: 9px;
+    font-size: 15px;
+}
+
+.realestate-footer-socials ul {
+    display: flex;
+    justify-content: end;
+    gap: 14px;
+}
+
+.realestate-footer-sidebar ul {
+    line-height: 36px;
+    padding-left: 15px;
+}
+
+.footer-style2>* span,
+.footer-style2>* a,
+.footer-style2>* li,
+.footer-style2>* {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    transition: var(--transition);
+}
+
+.footer-style2>* li:hover,
+.footer-style2>* a:hover {
+    color: var(--primary-color) !important;
+}
+
+#realestate-bottom {
+    background-color: #1E0E00;
+}
+
+.realestate-sub-footer-nav-menus p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.footer-style2>* h2,
+.footer-style2>* h3,
+.footer-style2>* h4,
+.footer-style2>* h5 {
+    color: #fff;
+}
+
+.footer-style>* span {
+    color: #fff;
+}
+
+.realestate-footer-socials ul i {
+    font-size: 16px;
+    transition: var(--transition);
+}
+
+.realestate-footer-socials ul i:hover {
+    color: var(--primary-color);
+}
+
+.realestate-footer-sidebar-style2 ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 5px;
+    line-height: 1.6em;
+}
+
+.realestate-footer-sidebar-style2 ul li {
+    background-color: #523013;
+}
+
+.realestate-footer-sidebar-style2 ul li a {
+    color: var(--white-700);
+    font-size: 15px;
+    padding: 8px;
+}
+
+.realestate-footer-sidebar-style2 ul li a:hover {
+    color: var(--primary-color);
+    background-color: var(--primary-color-700) !important;
+}
+
+.realestate-footer-sidebar .realestate-footer-double-menus {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.realestate-footer-sidebar .realestate-footer-double-menus li {
+    width: calc(100% / 2);
+}

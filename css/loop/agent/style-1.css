@@ -1,0 +1,239 @@
+#realestate-content  {
+    --primary-color: #4081FF;
+    --primary-color-700: #E6F2FF;
+    --secondary-color: #070026;
+    --primary-font-color: #070026;
+    --secondary-font-color: #E6F2FF;
+    --a-hover-color: #4081FF;
+    --heading-color: #070026;
+    --descprition-color: #73777D;
+    --deaf-font-color: #222222;
+    --deaf-font-color-600: #8894ad1f;
+    --deaf-font-color-400: #8894ad44;
+    --label-font-color: #151e42;
+    --input-font-color-700: #6d7ca3;
+    --input-font-color-500: #484f5f;
+    --input-border-color: #d4dcff;
+    --faded-font-color: #525c84;
+    --primary-disabled: #0075ff22;
+    --primary-border-color: #eaeef7;
+    --primary-border-color-600: #e5edf966;
+    --grid-text-color: #73777D;
+    --overlay-color: #000000;
+    --stats-bg-color: #F4F5F7;
+    --stars-color: #d1e4fa;
+    --dashboard-secondary-bg-color: #f5f9fd;
+    --black-700: #000000;
+    --white-700: #ffffff;
+    --white-500: #FFFFFFDE;
+    --white-200: #ffffff22;
+    --orange-700: #f8b849;
+    --purple-700: #4339f2;
+    --red-700: #fb295b;
+    --green-700: #34b53a;
+    --green-500: #00A884;
+    --grey-700: #808080;
+    --cyan-700: #28F8C0;
+    --golden-700: #F8BB18;
+    --input-radius: 10px;
+    --border-radius-lg: 20px;
+    --border-radius: 12px;
+    --border-radius-md: 16px;
+    --border-radius-xs: 4px;
+    --primary-font: 'inter';
+    --icons-font: "Font Awesome 6 Free";
+    --transition: 300ms;
+    --overlay-opacity: 0.6;
+    /* Icons Variables */
+    --chevron-down-icon-code: "\f078";
+    --heart-filled-icon-code: "\f004";
+    --star-filled-icon-code: "\f005";
+    --square-icon-code: "\f0c8";
+    --check-icon-code: "\f00c";
+    --circle-icon-code: "\f111";
+    --close-icon-code: "\f00d";
+    --marker-icon-code: "\f3c5";
+    --search-icon-code: "\f002";
+    --remove-heart-icon-code: "\e4ff";
+    --loading-icon: "\f110";
+    --bs-body-font-family: 'inter';
+}
+
+/* realestate agnet card from home 7 new agent  */
+
+.realestate-agent-grid-card {
+    border: 1px solid #DFDFDF;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: var(--transition);
+    background: #fff;
+    padding: 0;
+}
+
+.realestate-agent-grid-card:hover {
+    box-shadow: 0px 4px 20px 0 #00000010;
+}
+
+.realestate-agent-grid-image img {
+    width: 100%;
+    height: 196px;
+    object-fit: cover;
+}
+
+.realestate-agent-grid-info {
+    padding: 13px 16px 16px 16px;
+}
+
+.realestate-agent-grid-info h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.realestate-agent-grid-card-thumb a {
+    display: inline;
+}
+
+.realestate-agent-grid-info h3:hover {
+    color: var(--primary-color);
+}
+
+.realestate-agent-grid-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.realestate-agent-grid-card-thumb .post-rating {
+    height: 26px;
+    border: 1px solid #EFEFEF;
+    background: var(--white-700);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1F1B30;
+    font-family: var(--primary-font);
+    font-size: 12px;
+    font-weight: 500;
+    gap: 0 3px;
+    padding: 0 4px;
+    margin-bottom: 2px;
+    border-radius: 50px !important;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    line-height: 18px;
+}
+
+.realestate-agent-grid-contact {
+    margin: 8px 0;
+    display: flex;
+}
+
+.realestate-agent-grid-phone-icon {
+    font-size: 18px;
+    margin-right: 5px;
+    color: #007BFF;
+}
+
+.realestate-agent-grid-contact a {
+    text-decoration: none;
+    color: #4081FF;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.realestate-agent-grid-deals {
+    margin: 10px 0 6px 0;
+    font-size: 14px;
+    border-top: 1px solid #D9D9D9;
+    padding-top: 4px;
+    color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.realestate-agent-grid-contact-button {
+    text-align: center;
+    margin-top: 3px;
+}
+
+.realestate-agent-grid-deals span {
+    color: #070026;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.realestate-agent-grid-badge {
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    background: #00FFD0;
+    color: #33645B;
+    padding: 2px 6px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.realestate-agent-grid-contact-button a {
+    background: #DCDCDC;
+    color: #070026;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+}
+
+.realestate-agent-grid-info>a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.realestate-agent-grid-contact-button a:hover {
+    background-color: var(--primary-color);
+    color: var(--white-700);
+}
+
+.realestate-agent-grid-details p {
+    font-size: 12px;
+    color: #73777D;
+    margin-bottom: 10px;
+}
+.realestate-agent-grid-details p:last-child {
+    margin-bottom: -6px;
+}
+.realestate-save-posts {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #00000030;
+    z-index: 0;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 50%;
+    line-height: 30px;
+    transition: var(--transition);
+    font-size: 13px;
+    color: #fff;
+    padding: 1px 0 0 1px;
+}
+
+.realestate-save-posts:hover {
+    background-color: #000;
+}

@@ -1,0 +1,270 @@
+body  {
+    --primary-color: #BC7635;
+    --primary-color-700: #FFF5EC;
+    --secondary-color: #1F193B;
+    --primary-font-color: #070026;
+    --secondary-font-color: #E6F2FF;
+    --a-hover-color: #BC7635;
+    --heading-color: #070026;
+    --descprition-color: #73777D;
+    --deaf-font-color: #222222;
+    --deaf-font-color-600: #8894ad1f;
+    --deaf-font-color-400: #8894ad44;
+    --label-font-color: #151e42;
+    --input-font-color-700: #6d7ca3;
+    --input-font-color-500: #484f5f;
+    --input-border-color: #d4dcff;
+    --faded-font-color: #525c84;
+    --primary-disabled: #0075ff22;
+    --primary-border-color: #eaeef7;
+    --primary-border-color-600: #e5edf966;
+    --grid-text-color: #73777D;
+    --overlay-color: #000000;
+    --stats-bg-color: #F4F5F7;
+    --stars-color: #d1e4fa;
+    --dashboard-secondary-bg-color: #f5f9fd;
+    --black-700: #000000;
+    --white-700: #ffffff;
+    --white-500: #FFFFFFDE;
+    --white-200: #ffffff22;
+    --orange-700: #f8b849;
+    --purple-700: #4339f2;
+    --red-700: #fb295b;
+    --green-700: #34b53a;
+    --green-500: #00A884;
+    --grey-700: #808080;
+    --cyan-700: #28F8C0;
+    --golden-700: #F8BB18;
+    --input-radius: 10px;
+    --border-radius-lg: 20px;
+    --border-radius: 12px;
+    --border-radius-md: 16px;
+    --border-radius-xs: 4px;
+    --primary-font: 'Urbanist';
+    --icons-font: "Font Awesome 6 Free";
+    --transition: 300ms;
+    --overlay-opacity: 0.6;
+    /* Icons Variables */
+    --chevron-down-icon-code: "\f078";
+    --heart-filled-icon-code: "\f004";
+    --star-filled-icon-code: "\f005";
+    --square-icon-code: "\f0c8";
+    --check-icon-code: "\f00c";
+    --circle-icon-code: "\f111";
+    --close-icon-code: "\f00d";
+    --marker-icon-code: "\f3c5";
+    --search-icon-code: "\f002";
+    --remove-heart-icon-code: "\e4ff";
+    --loading-icon: "\f110";
+    --bs-body-font-family: 'Urbanist';
+}
+/* footer style 1  */
+
+@media (min-width: 1400px) {
+    .footer-style3 .container,
+    .footer-style3 .container-lg,
+    .footer-style3 .container-md,
+    .footer-style3 .container-sm,
+    .footer-style3 .container-xl,
+    .footer-style3 .container-xxl {
+        max-width: 1320px;
+        padding: 0 20px;
+    }
+}
+
+.footer-style3>* span,
+.footer-style3>* a,
+.footer-style3>* li,
+.footer-style3>* {
+    color: #9f9d9d;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-style3>* a:hover,
+.footer-style3>* li:hover {
+    color: #fff;
+}
+
+.footer-style3>* h2,
+.footer-style3>* h3,
+.footer-style3>* h4,
+.footer-style3>* h5 {
+    color: #fff;
+}
+
+.footer-style3>* span {
+    color: #fff;
+}
+
+#realestate-bottom,
+#realestate-footer {
+    background-color: #153D46;
+}
+
+#realestate-footer .realestate-widget h5,
+#realestate-footer .realestate-widget a {
+    color: #353B4A;
+}
+
+#realestate-footer .realestate-widget ul li a:hover {
+    color: var(--primary-color);
+}
+
+#realestate-footer * .realestate-footer-app-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.realestate-footer-sidebar ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    position: relative;
+    gap: 5px;
+    line-height: 1.6em;
+}
+
+.realestate-footer-details li i {
+    position: absolute;
+    margin-left: -24px;
+    margin-top: 6px;
+}
+
+.realestate-footer-sidebar .realestate-footer-details .realetate-footer-details {
+    padding-left: 23px;
+    gap: 13px;
+}
+
+.footer-style3>* h2,
+.footer-style3>* h3,
+.footer-style3>* h4,
+.footer-style3>* h5 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.realestate-footer-details .realestate-footer-logo {
+    margin-bottom: 30px;
+}
+
+.realestate-subscriber-content {
+    display: flex;
+    border: 1px solid #FFFFFF;
+    background-color: var(--white-700);
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.realestate-subscriber-content .realestate-input {
+    background: #fff0;
+    height: 50px;
+    border: unset;
+    color: #ffffff7a;
+    width: calc(100% - 128px);
+}
+
+.realestate-subscriber-content .realestate-subscrip-btn {
+    border-radius: 7px;
+    width: 128px;
+    border: unset;
+    font-size: 15px;
+    color: var(--primary-font-color);
+    transition: var(--transition);
+    font-weight: 600;
+    background-color: var(--white-700);
+}
+
+.realestate-subscriber-content .realestate-subscrip-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--primary-color-700);
+}
+
+.border-top-1 {
+    border-top: 1px solid #ffffff54;
+}
+
+.realestate-footer-socials {
+    display: flex;
+    align-items: center;
+}
+
+.realestate-footer-socials ul {
+    display: flex;
+    list-style: none;
+    gap: 14px;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.realestate-footer-socials ul i {
+    width: 20px;
+    height: 20px;
+    background: #ffffff78;
+    color: #070026;
+    display: flex;
+    transition: var(--transition);
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 1px 2px 0px 0;
+}
+
+.realestate-footer-socials ul i:hover {
+    background-color: var(--primary-color);
+    color: var(--primary-color-700);
+}
+
+.realestate-footer-socials p {
+    color: #fff;
+}
+
+.realestate-sub-footer-nav-menus ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 32px;
+}
+
+.realestate-sub-footer-nav-menus li {
+    position: relative;
+}
+
+.realestate-sub-footer-nav-menus li:not(:first-child):before {
+    content: '';
+    border-left: 3px solid;
+    position: absolute;
+    left: -16px;
+    height: 3px;
+    width: 4px;
+    top: 11px;
+}
+
+
+/* end footer style 1  */
+
+.realestate-footer-sidebar h2 {
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.footer-list-items a {
+    color: #BEBDBD;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+}
+
+.footer-headding-padding {
+    margin-bottom: 20px;
+}
