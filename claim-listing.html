@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/home.png">
+    <title>Realestate</title>
+
+    <!-- all lib files includes  -->
+    <!-- Fontawesome Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/fontawesome/css/regular.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/fontawesome/css/brands.min.css">
+
+    <!-- Fontawesome Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/css/bootstrap.min.css">
+    <!-- Slick Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/slick/slick.css">
+    <!-- Fonts Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/realestate-font-family.css">
+    <!-- Select2 Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/select2/select2.min.css">
+
+    <!-- Realestate main file  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/realestate-header.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/realestate-styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/submit-listing.css">
+
+
+</head>
+
+<body id="realestate-content"> 
+    <div id="content" class="site-content">
+        <div class="realestate-listing-submission">
+            <div class="realestate-listing-submission-header">
+                <div class="realestate-header-logo">
+                    <a href="02-home-modern.html">
+                        <img loading="lazy" src="assets/images/realestatepro_logo_dark.png" alt="realestate-logo">
+                    </a>
+                </div>
+                <div class="realestate-close-submit-modal" data-bs-dismiss="modal" aria-hidden="true">
+                    <a href="02-home-modern.html"> EXIT<svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                       >
+                        <path
+                            d="M4.72667 8.39333L5.66667 9.33333L9 6L5.66667 2.66667L4.72667 3.60667L6.44667 5.33333H0V6.66667H6.44667L4.72667 8.39333ZM10.6667 0H1.33333C0.593333 0 0 0.6 0 1.33333V4H1.33333V1.33333H10.6667V10.6667H1.33333V8H0V10.6667C0 11.4 0.593333 12 1.33333 12H10.6667C11.4 12 12 11.4 12 10.6667V1.33333C12 0.6 11.4 0 10.6667 0Z"
+                            fill="black" />
+                    </svg></a>
+                </div>
+            </div>
+            <div class="realestate-listing-submission-content-form">
+                <form action="#" method="post" id="submit-listing">
+                    <div class="realestate-listing-submission-content">
+                        <div class="row m-0">
+                            <div class="col-lg-7 col-md-12 p-0">
+                                <div class="realestate-listing-submission-prograss">
+                                    <div class="realestate-listing-submission-bar">
+                                    </div>
+                                </div>
+                                <div class="realestate-listing-submission-form-steps">
+                                    <div class="realestate-listing-submission-form active" data-countings="1">
+                                        <div class="realestate-listing-submission-titile">
+                                            <h2>Enter the Property Address You Want to Claim</h2>
+                                            <p>Provide your property's location and proceed to verify the ownership. </p>
+                                        </div>
+                                        <div class="realestate-listing-submission-form-group-mian">
+                                            <div class="realestate-listing-submission-form-group size-1">
+                                                <label for="property-address">Street address</label>
+                                                <input type="text" id="property-address" name="property-address" placeholder="1001 26th Street">
+                                            </div>
+                                            <div class="realestate-listing-submission-form-group size-3">
+                                                <label for="property-city">City</label>
+                                                <input type="text" id="property-city" name="property-city" placeholder="Manhattan">
+                                            </div>
+                                            <div class="realestate-listing-submission-form-group size-3">
+                                                <label for="property-state">state</label>
+                                                <input type="text" id="property-state" name="property-state" placeholder="NY">
+                                            </div>
+                                            <div class="realestate-listing-submission-form-group size-3">
+                                                <label for="property-zip">Zip</label>
+                                                <input type="number" id="property-zip" name="property-zip" placeholder="10001">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="realestate-listing-submission-form" data-countings="2">
+                                        <div class="realestate-listing-submission-titile">
+                                            <h2>Owner Verification Information</h2>
+                                            <p>Please enter your legal name and other details.</p>
+                                        </div>
+                                        <div class="realestate-listing-submission-form-group-mian">
+                                            <div class="realestate-listing-submission-form-group size-1">
+                                                <label for="claim-name">Full Name</label>
+                                                <input type="text" id="claim-name" name="claim-name" placeholder="john doe">
+                                            </div>
+                                            <div class="realestate-listing-submission-form-group size-2">
+                                                <label for="claim-user-number">Phone Number</label>
+                                                <input type="number" id="claim-user-number" name="claim-user-number" placeholder="+362">
+                                            </div>
+                                            <div class="realestate-listing-submission-form-group size-2">
+                                                <label for="claim-user-email">Email Address</label>
+                                                <input type="email" id="claim-user-email" name="claim-user-email" placeholder="examle@gmail.com">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="realestate-listing-submission-form" data-countings="3">
+                                        <div class="realestate-listing-submission-titile">
+                                            <h2>Proof of Ownership Required</h2>
+                                            <p>Please attach at least two of the following documents:</p>
+                                            <ul>
+                                                <li>1. Property Tax Bill</li>
+                                                <li>2. Mortgage Statement</li>
+                                                <li>3. Deed or Title</li>
+                                                <li>4. Utility Bill</li>
+                                            </ul>
+                                        </div>
+                                        <div class="realestate-listing-submission-form-group-mian">
+                                            <div class="realestate-gallery-upload-container">
+                                                <div class="realestate-gallery-upload-container-input">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 15.2451V18.1221C4 19.7111 4.9 20.9991 6 20.9991H18C19.1 20.9991 20 19.7111 20 18.1221V15.2451" stroke="#151E42" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 9L12 4L17 9" stroke="#151E42" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 4.12598V16.126" stroke="#151E42" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                                    <h4>Drag Here or <span>Upload photos</span></h4>
+                                                    <p>Supported formates: JPG, PNG, or PDF</p>
+                                                    <label for="fileInput"></label>
+                                                </div>
+
+                                                <input class="realestate-hide" type="file" id="fileInput" multiple data-featureImage="Select from below as the featured image.">
+                                                <div class="realestate-gallery-previews" id="preview"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-12 p-0 d-lg-block d-md-none d-none">
+                                <div class="realestate-submit-lisitng-sidebar">
+                                    <div class="lisitng-submit-live-preview">
+                                        <div class="live-preview">
+                                            <span class="blink"><i class="fa-regular fa-circle-dot"></i></span>Live Preview
+                                        </div>
+                                        <div class="realestate-item loop-style1">
+                                            <div class="real-listings-post-item">
+                                                <div class="real-listings-post-thumbnail">
+                                                    <div class="post-img">
+                                                        <img src="assets/images/preview-placeholder.png" data-placeholder="assets/images/preview-placeholder.png" alt="loop-style1-grid-slider">
+                                                    </div>
+                                                    <div class="position-grid-data">
+                                                        <div class="post-for sale">
+                                                            For <span>Sale</span>
+                                                        </div>
+                                                        <div class="post-for-price">
+                                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none"  >   <g clip-path="url(#clip0_1321_4810)">       <path           d="M13.5352 4.44531L13.7266 4.63672V4.91016V7.61719V7.89062L13.5352 8.08203L9.21484 12.4023L8.28516 11.4727L12.4141 7.34375V5.18359L8.28516 1.02734L9.21484 0.0976562L13.5352 4.44531ZM0 6.25V0.125H6.125L11.375 5.375V7.125L6.125 12.375L0 6.25ZM3.9375 3.1875C3.9375 2.72266 3.52734 2.3125 3.0625 2.3125C2.57031 2.3125 2.1875 2.72266 2.1875 3.1875C2.1875 3.67969 2.57031 4.0625 3.0625 4.0625C3.52734 4.0625 3.9375 3.67969 3.9375 3.1875Z"           fill="#4081FF" />   </g>   <defs>       <clipPath id="clip0_1321_4810">           <rect width="14" height="13" fill="white" />       </clipPath>   </defs>
+                                                            </svg>
+                                                            $<span>10,000</span> Price Cut 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="real-listings-post-content">
+                                                    <div class="post-price">
+                                                        <h2>$<span>430,000</span></h2>
+                                                    </div>
+                                                    <div class="post-details">
+                                                        <ul>
+                                                            <li class="bed"><strong>4</strong> bed</li>
+                                                            <li class="bath"><strong>3</strong> Bath</li>
+                                                            <li class="sqft"><strong>3,700</strong> sqft </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="post-location">
+                                                        <img src="assets/images/icons/map.svg" alt="pin"> <span class="p-md">1001, Clinton Street, New York, NY, 10009</span>
+                                                    </div>
+                                                    <p class="realestate-lisitng-for">For <span>sale</span> by owner</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="realestate-listing-submission-footer">
+                        <button class="realestate-subission-back">Back</button>
+                        <button class="realestate-subission-next">Next</button>
+                        <div class="submit-list-tabs-button realestate-hide">
+                            <div class="d-flex align-items-center">
+                                <div class="realestate-user-logins-group-checkbox">
+                                    <input type="checkbox" name="privacy" id="privacy">
+                                    <label for="privacy">I understand all information provided will be used solely for the <br> purpose of verifying property ownership.</label>
+                                </div>
+                                <button type="submit" class="disabled realestate-subission-submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="realestate-after-submit realestate-hide">
+                <div class="realestate-listing-submission-prograss">
+                    <div class="realestate-listing-submission-bar w-100">
+                    </div>
+                </div>
+                <div class="realestate-listing-submission-form-steps">
+                    <div class="realestate-listing-submission-form active" data-countings="1">
+                        <div class="realestate-listing-submission-titile">
+                            <h2>Thanks for Submitting Claim request.</h2>
+                            <p>Now sit back and relax while we review and verify your ownership.</p>
+                            <img src="assets/images/realestate-done-list.png" alt="realestate-done">
+                            <a href="02-home-modern.html">Go to My Account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- all JS files includes  -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/lib/select2/select2.min.js"></script>
+    <script src="assets/js/realestate-scripts.js"></script>
+    <script src="assets/js/realestate-submit.js"></script>
+</body>
+
+</html>

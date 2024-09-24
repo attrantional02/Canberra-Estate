@@ -1,0 +1,2283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/home.png">
+    <title>Realestate</title>
+
+    <!-- all lib files includes  -->
+    <!-- Fontawesome Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/fontawesome/css/regular.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/fontawesome/css/brands.min.css">
+
+    <!-- Fontawesome Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/css/bootstrap.min.css">
+    <!-- PrettyPhotos Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/pretty-photo/css/prettyPhoto.css">
+    <!-- Slick Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/slick/slick.css">
+    <!-- Fonts Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/realestate-font-family.css">
+    <!-- Select2 Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/select2/select2.min.css">
+
+    <!-- Realestate main file  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/realestate-header.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/realestate-footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/realestate-styles.css">
+
+
+    <!-- loop property style 1 -->
+    <link rel="stylesheet" type="text/css" href="assets/css/loop/property/style-1.css">
+    <!-- Blog loop  style 1 -->
+    <link rel="stylesheet" type="text/css" href="assets/css/archive.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/jquery-ui/jquery-ui.css">
+
+
+</head>
+
+<body id="realestate-content"> 
+    <div id="content" class="site-content">
+        <header class="realestate-header inner-pages-header">
+            <div class="realestate-header-container">
+                <div class="container">
+                    <div class="realestate-header-top-bar">
+                        <div class="realestate-header-logo">
+                            <a href="02-home-modern.html">
+                                <img loading="lazy" src="assets/images/logo.png" alt="realestate-logo">
+                            </a>
+                        </div>
+                        <button class="realestate-not-filled-btn d-flex d-lg-none realestate-offcanvas-menu-btn" data-bs-toggle="offcanvas" data-bs-target="#realestate-offcanvas-navigation">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                        </button>
+                        <div class="realestate-navigation-nav-search  col-lg-7 col-md-12">
+                            <div class="realestate-home-banner-search position-relative">
+                                <form id="realestate-search-results" action="archive.html" method="post">
+                                    <div class="realestate-form-content">
+                                        <div class="realestate-form">
+                                            <div class="realestate-form-inputs">
+                                                <img src="assets/images/icons/modren-location-pin.svg" alt="location">
+                                                <select class="select2" id="realestate-location" name="realestatelocation">
+                                                    <option value="" disabled selected>İstanbul, Türkiye</option>
+                                                    <option value="new-york">New York</option>
+                                                    <option value="los-angeles">Los Angeles</option>
+                                                    <option value="chicago">Chicago</option>
+                                                    <option value="houston">Houston</option>
+                                                    <option value="miami">Miami</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="realestate-form">
+                                            <div class="realestate-form-inputs">
+                                                <input type="text" name="keywords-search" placeholder="Araba, telefon, bisiklet ve daha fazlası..." class="form-control realestate-input" id="keywords-search">
+                                            </div>
+                                        </div>
+                                        <div class="realestate-form search">
+                                            <button type="submit" class="form-control realestate-input-search" id="realestate-submit"><i
+                                                    class="fa-solid fa-magnifying-glass"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="realestate-navigation-quick realestate-submission-btn-container d-none d-lg-block">
+                            <!-- <div class="realestate-navigation-quick-login">
+                        <button class="realestate-not-filled-btn-login realestate-offcanvas-menu-btn" data-bs-toggle="modal" data-bs-target="#realestate-login-modal">
+                            <i class="fa-solid fa-user-plus"></i> Login
+                        </button>
+                    </div> -->
+                            <div class="realestate-navigation-quick realestate-user-menu-container">
+                                <a href="realestate-plans.html" class="realestate-filled-btn realestate-submission-btn">
+                                    <i class="fa-solid fa-plus"></i> List Your Property
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- end header code  -->
+            </div>
+            <div class="realestate-header-container-bottom pb-20">
+                <div class="container">
+                    <div class="realestate-navigation-inner-menus">
+                        <ul class="realestate-navigation-inner-menus-list">
+                            <li><a href="#">Commercial</a></li>
+                            <li><a href="#">Residential</a></li>
+                            <li><a href="#">Cooperative</a></li>
+                            <li><a href="#">Agricultural</a></li>
+                            <li><a href="#">Industrial</a></li>
+                            <li><a href="#">Plots</a></li>
+                            <li><a href="#">Apartment</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="realestate-content-container">
+            <div class="realestate-archive-container pt-30 pb-30">
+                <div class="container">
+                    <div class="realestate-breadcrumb">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Manchester</a></li>
+                            <li><span>Condominium</span></li>
+                        </ul>
+                    </div>
+                    <div class="d-sm-flex align-items-center justify-content-between realestate-grid-btns-section">
+                        <h2 class="realestate-archive-results-found realestate-total-results">Condominium in UK</h2>
+                        <div class="realestate-archive-actions d-flex align-items-center flex-wrap justify-content-start ms-auto">
+                            <div class="realestate-archive-grid-list-switcher d-flex align-items-center flex-wrap justify-content-start">
+                                <div class="realestate-archive-toggle-Listing-style">
+                                    <div class="listing-switcher list-view">
+                                        <img src="assets/images/icons/list.svg" alt="list">
+                                        <span> List</span>
+                                    </div>
+                                    <div class="listing-switcher grid-view realestate-active-style">
+                                        <img src="assets/images/icons/grid.svg" alt="grid">
+                                        <span>Grid</span>
+                                    </div>
+                                    <div class="listing-switcher realestate-archive-map-toggle">
+                                        <img src="assets/images/icons/map.svg" alt="map">
+                                        <label for="realestate-map-toggle">
+                                            <span>Map</span>
+                                            <input type="checkbox" class="realestate-hide" id="realestate-map-toggle"
+                                                data-close-map="Map">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-0">
+                        <div class="ps-0 col-12 col-lg-2 archive-filter-output">
+                            <div class="archive-activate-abs-alerts mb-30">
+                                <h3>Activate alerts</h3>
+                                <p>Get notified about new listings based on your preferences..</p>
+                                <div class="realestate-toggle">
+                                    <span>Alerts Status Off</span>
+                                    <input type="checkbox" id="realestate-abs-toggles">
+                                    <label class="" for="realestate-abs-toggles"></label>
+                                </div>
+                            </div>
+                            <div class="realestate-mobile-filters d-lg-none d-md-block">
+                                <i class="fa-solid fa-filter"></i> Filters
+                            </div>
+                            <div class="realestate-search-filters-container">
+                                <form action="#" id="realestate-filters" method="post">
+                                    <div class="realestate-search-filters  pb-30 mb-30">
+                                        <h4>Categories</h4>
+                                        <div class="realestate-search-filters-dropdown mb-20">
+                                            <select class="select2" id="realestate-Categories" name="realestatelocation">
+                                                <option value="" disabled selected>Property type</option>
+                                                <option value="House">House</option>
+                                                <option value="Apartment">Apartment</option>
+                                                <option value="Townhouse">Townhouse</option>
+                                                <option value="Villa">Villa</option>
+                                            </select>
+                                        </div>
+                                        <div class="realestate-search-filters-list">
+                                            <ul class="realestate-search-filters-main-list">
+                                                <li class="realestate-show-sub-filters active"> <span>All types</span>
+                                                    <ul class="realestate-search-filters-sub-list">
+                                                        <li>
+                                                            <input type="checkbox" name="House" id="House_all">
+                                                            <label for="House_all">House ( 10,000 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="apartment" id="apartment_all">
+                                                            <label for="apartment_all">Apartment & Unit ( 364 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="townhouse" id="townhouse_all">
+                                                            <label for="townhouse_all">Townhouse ( 1020 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="villa" id="villa_all">
+                                                            <label for="villa_all">Villa ( 50 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="land" id="land_all">
+                                                            <label for="land_all">Land ( 30 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="Other" id="Other_all">
+                                                            <label for="Other_all">Other Properties ( 69,840 )</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="realestate-show-sub-filters"> <span>Property for Sell</span>
+                                                    <ul class="realestate-search-filters-sub-list">
+                                                        <li>
+                                                            <input type="checkbox" name="House" id="House_sell">
+                                                            <label for="House_sell">House ( 10,000 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="apartment" id="apartment_sell">
+                                                            <label for="apartment_sell">Apartment & Unit ( 364 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="townhouse" id="townhouse_sell">
+                                                            <label for="townhouse_sell">Townhouse ( 1020 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="villa" id="villa_sell">
+                                                            <label for="villa_sell">Villa ( 50 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="land" id="land_sell">
+                                                            <label for="land_sell">Land ( 30 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="Other" id="Other_sell">
+                                                            <label for="Other_sell">Other Properties ( 69,840 )</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="realestate-show-sub-filters"> <span>Property for Rent</span>
+                                                    <ul class="realestate-search-filters-sub-list">
+                                                        <li>
+                                                            <input type="checkbox" name="House" id="House_rent">
+                                                            <label for="House_rent">House ( 10,000 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="apartment" id="apartment_rent">
+                                                            <label for="apartment_rent">Apartment & Unit ( 364 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="townhouse" id="townhouse_rent">
+                                                            <label for="townhouse_rent">Townhouse ( 1020 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="villa" id="villa_rent">
+                                                            <label for="villa_rent">Villa ( 50 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="land" id="land_rent">
+                                                            <label for="land_rent">Land ( 30 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="Other" id="Other_rent">
+                                                            <label for="Other_rent">Other Properties ( 69,840 )</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="realestate-hide realestate-show-sub-filters"> <span>Property
+                                                        For
+                                                        Lease</span>
+                                                    <ul class="realestate-search-filters-sub-list">
+                                                        <li>
+                                                            <input type="checkbox" name="House" id="House_lease">
+                                                            <label for="House_lease">House ( 10,000 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="apartment" id="apartment_lease">
+                                                            <label for="apartment_lease">Apartment & Unit ( 364
+                                                                )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="townhouse" id="townhouse_lease">
+                                                            <label for="townhouse_lease">Townhouse ( 1020 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="villa" id="villa_lease">
+                                                            <label for="villa_lease">Villa ( 50 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="land" id="land_lease">
+                                                            <label for="land_lease">Land ( 30 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="Other" id="Other_lease">
+                                                            <label for="Other_lease">Other Properties ( 69,840 )</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="realestate-hide realestate-show-sub-filters"> <span>Property
+                                                        For
+                                                        Working</span>
+                                                    <ul class="realestate-search-filters-sub-list">
+                                                        <li>
+                                                            <input type="checkbox" name="House" id="House_working">
+                                                            <label for="House_working">House ( 10,000 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="apartment" id="apartment_working">
+                                                            <label for="apartment_working">Apartment & Unit ( 364
+                                                                )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="townhouse" id="townhouse_working">
+                                                            <label for="townhouse_working">Townhouse ( 1020 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="villa" id="villa_working">
+                                                            <label for="villa_working">Villa ( 50 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="land" id="land_working">
+                                                            <label for="land_working">Land ( 30 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="Other" id="Other_working">
+                                                            <label for="Other_working">Other Properties ( 69,840
+                                                                )</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="realestate-filters-view-more" data-show="View more" data-less="View Less">View more</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="realestate-search-filters pb-30 mb-30">
+                                        <h4>Locations</h4>
+                                        <div class="realestate-search-filters-dropdown mb-20">
+                                            <select class="select2" id="realestate-filter-location" name="realestate-filter-location">
+                                                <option value="" disabled selected>Select Location</option>
+                                                <option value="newyork">New York</option>
+                                                <option value="manhattan">Manhattan</option>
+                                                <option value="brooklyn">Brooklyn</option>
+                                                <option value="queens">Queens</option>
+                                            </select>
+                                        </div>
+                                        <div class="realestate-search-filters-list">
+                                            <ul class="realestate-search-filters-main-list">
+                                                <li class="realestate-show-sub-filters active"> <span>New York</span>
+                                                    <ul class="realestate-search-filters-sub-list">
+                                                        <li>
+                                                            <input type="checkbox" name="manhattan" id="manhattan_ny">
+                                                            <label for="manhattan_ny">Manhattan ( 10,000 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="brooklyn" id="brooklyn_ny">
+                                                            <label for="brooklyn_ny">Brooklyn ( 8,000 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="queens" id="queens_ny">
+                                                            <label for="queens_ny">Queens ( 6,500 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="bronx" id="bronx_ny">
+                                                            <label for="bronx_ny">Bronx ( 3,200 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="statenisland" id="statenisland_ny">
+                                                            <label for="statenisland_ny">Staten Island ( 2,800 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="longisland" id="longisland_ny">
+                                                            <label for="longisland_ny">Long Island ( 4,400 )</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="realestate-show-sub-filters"> <span>Manhattan</span>
+                                                    <ul class="realestate-search-filters-sub-list">
+                                                        <li>
+                                                            <input type="checkbox" name="upperwestside" id="upperwestside_mh">
+                                                            <label for="upperwestside_mh">Upper West Side ( 1,500
+                                                                )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="upper_east_side" id="uppereastside_mh">
+                                                            <label for="uppereastside_mh">Upper East Side ( 1,800
+                                                                )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="midtown" id="midtown_mh">
+                                                            <label for="midtown_mh">Midtown ( 2,200 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="chelsea" id="chelsea_mh">
+                                                            <label for="chelsea_mh">Chelsea ( 1,100 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="soho" id="soho_mh">
+                                                            <label for="soho_mh">SoHo ( 1,400 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="financialdistrict" id="financialdistrict_mh">
+                                                            <label for="financialdistrict_mh">Financial District ( 2,000
+                                                                )</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="realestate-show-sub-filters"> <span>Brooklyn</span>
+                                                    <ul class="realestate-search-filters-sub-list">
+                                                        <li>
+                                                            <input type="checkbox" name="williamsburg" id="williamsburg_bk">
+                                                            <label for="williamsburg_bk">Williamsburg ( 1,200 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="brooklynheights" id="brooklynheights_bk">
+                                                            <label for="brooklynheights_bk">Brooklyn Heights ( 1,300
+                                                                )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="park_slope" id="parkslope_bk">
+                                                            <label for="parkslope_bk">Park Slope ( 1,100 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="dumbo" id="dumbo_bk">
+                                                            <label for="dumbo_bk">DUMBO ( 800 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="greenpoint" id="greenpoint_bk">
+                                                            <label for="greenpoint_bk">Greenpoint ( 950 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="bushwick" id="bushwick_bk">
+                                                            <label for="bushwick_bk">Bushwick ( 1,050 )</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="realestate-show-sub-filters"> <span>Queens</span>
+                                                    <ul class="realestate-search-filters-sub-list">
+                                                        <li>
+                                                            <input type="checkbox" name="astoria" id="astoria_qn">
+                                                            <label for="astoria_qn">Astoria ( 1,100 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="long_island_city" id="longislandcity_qn">
+                                                            <label for="longislandcity_qn">Long Island City ( 1,250
+                                                                )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="flushing" id="flushing_qn">
+                                                            <label for="flushing_qn">Flushing ( 900 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="forest_hills" id="foresthills_qn">
+                                                            <label for="foresthills_qn">Forest Hills ( 850 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="jackson_heights" id="jacksonheights_qn">
+                                                            <label for="jacksonheights_qn">Jackson Heights ( 700
+                                                                )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="jamaica" id="jamaica_qn">
+                                                            <label for="jamaica_qn">Jamaica ( 650 )</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="realestate-hide realestate-show-sub-filters">
+                                                    <span>Bronx</span>
+                                                    <ul class="realestate-search-filters-sub-list">
+                                                        <li>
+                                                            <input type="checkbox" name="riverdale" id="riverdale_bx">
+                                                            <label for="riverdale_bx">Riverdale ( 500 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="kingsbridge" id="kingsbridge_bx">
+                                                            <label for="kingsbridge_bx">Kingsbridge ( 400 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="south_bronx" id="southbronx_bx">
+                                                            <label for="southbronx_bx">South Bronx ( 300 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="fordham" id="fordham_bx">
+                                                            <label for="fordham_bx">Fordham ( 450 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="pelham_bay" id="pelhambay_bx">
+                                                            <label for="pelhambay_bx">Pelham Bay ( 350 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="throgs_neck" id="throgsneck_bx">
+                                                            <label for="throgsneck_bx">Throgs Neck ( 250 )</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="realestate-hide realestate-show-sub-filters"> <span>Staten
+                                                        Island</span>
+                                                    <ul class="realestate-search-filters-sub-list">
+                                                        <li>
+                                                            <input type="checkbox" name="stgeorge" id="stgeorge_si">
+                                                            <label for="stgeorge_si">St. George ( 400 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="tottenville" id="tottenville_si">
+                                                            <label for="tottenville_si">Tottenville ( 300 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="great_kills" id="greatkills_si">
+                                                            <label for="greatkills_si">Great Kills ( 350 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="new_dorp" id="newdorp_si">
+                                                            <label for="newdorp_si">New Dorp ( 200 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="west_brighton" id="westbrighton_si">
+                                                            <label for="westbrighton_si">West Brighton ( 250 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="rossville" id="rossville_si">
+                                                            <label for="rossville_si">Rossville ( 150 )</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="realestate-hide realestate-show-sub-filters"> <span>Long
+                                                        Island</span>
+                                                    <ul class="realestate-search-filters-sub-list">
+                                                        <li>
+                                                            <input type="checkbox" name="hempstead" id="hempstead_li">
+                                                            <label for="hempstead_li">Hempstead ( 600 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="huntington" id="huntington_li">
+                                                            <label for="huntington_li">Huntington ( 500 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="islandia" id="islandia_li">
+                                                            <label for="islandia_li">Islandia ( 300 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="ronkonkoma" id="ronkonkoma_li">
+                                                            <label for="ronkonkoma_li">Ronkonkoma ( 400 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="freeport" id="freeport_li">
+                                                            <label for="freeport_li">Freeport ( 450 )</label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="roslyn" id="roslyn_li">
+                                                            <label for="roslyn_li">Roslyn ( 350 )</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="realestate-filters-view-more" data-show="View more" data-less="View Less">View more</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="realestate-search-filters pb-30 mb-30">
+                                        <h4>Price Rang</h4>
+                                        <div class="realestate-search-filters-dropdown mb-20">
+                                            <select class="select2" id="realestate-Price" name="realestatelocation">
+                                                <option value="" selected>Price</option>
+                                                <option value="Under $500">Under $500</option>
+                                                <option value="$500 - $1,000">$500 - $1,000</option>
+                                                <option value="$1,000 - $2,000">$1,000 - $2,000</option>
+                                                <option value="$2,000 - $5,000">$2,000 - $5,000</option>
+                                                <option value="$5,000 above">$5,000 above</option>
+                                            </select>
+                                        </div>
+                                        <div class="price-range-container">
+                                            <label>Custom Price range</label>
+                                            <div class="realestate-price-range-container">
+                                                <span id="amount-start">$100</span>
+                                                <div class="chart-container">
+                                                    <div class="chart-bar one"></div>
+                                                    <div class="chart-bar tow"></div>
+                                                    <div class="chart-bar three"></div>
+                                                    <div class="chart-bar four"></div>
+                                                    <div class="chart-bar five"></div>
+                                                    <div class="chart-bar six"></div>
+                                                    <div class="chart-bar seven"></div>
+                                                    <div class="chart-bar eight"></div>
+                                                    <div class="chart-bar nine"></div>
+                                                    <div class="chart-bar ten"></div>
+                                                    <div class="chart-bar eleven"></div>
+                                                    <div class="chart-bar twel"></div>
+                                                </div>
+                                                <div id="slider-range"></div>
+                                                <span id="amount-end">$900</span>
+                                            </div>
+                                        </div>
+                                        <div class="realestate-search-filters-list">
+                                            <ul class="realestate-search-filters-main-list checkbox">
+                                                <li class="realestate-search-filters-price">
+                                                    <input type="checkbox" name="Under_500" id="Under_500">
+                                                    <label for="Under_500">Under $500</label>
+                                                </li>
+                                                <li class="realestate-search-filters-price">
+                                                    <input type="checkbox" name="500_2000" id="500_2000">
+                                                    <label for="500_2000">$500 - $2,000</label>
+                                                </li>
+                                                <li class="realestate-search-filters-price">
+                                                    <input type="checkbox" name="200_3000" id="200_3000">
+                                                    <label for="200_3000">$200 - $3,000</label>
+                                                </li>
+                                                <li class="realestate-search-filters-price realestate-hide">
+                                                    <input type="checkbox" name="300_4000" id="300_4000">
+                                                    <label for="300_4000">$300 - $4,000</label>
+                                                </li>
+                                                <li class="realestate-search-filters-price realestate-hide">
+                                                    <input type="checkbox" name="5400_5000" id="5400_5000">
+                                                    <label for="5400_5000">$5400 - $5,000</label>
+                                                </li>
+                                                <li class="realestate-filters-view-more" data-show="View more" data-less="View Less">View more</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="realestate-search-filters pb-30 mb-30">
+                                        <h4>Brand</h4>
+                                        <div class="realestate-search-filters-list">
+                                            <div class="realestate-search-filters-list">
+                                                <ul class="realestate-search-filters-main-list image-list">
+                                                    <li>
+                                                        <img src="assets/images/icons/suzuki.png.svg" alt="suzuki">
+                                                        <input type="checkbox" name="Coldwell" id="Coldwell">
+                                                        <label for="Coldwell">Coldwell Real Estate (24352)</label>
+                                                    </li>
+                                                    <li>
+                                                        <img src="assets/images/icons/toyota.png.svg" alt="toyota">
+                                                        <input type="checkbox" name="era_real" id="era_real">
+                                                        <label for="era_real">Era Real Estate (24352)</label>
+                                                    </li>
+                                                    <li>
+                                                        <img src="assets/images/icons/honda.png.svg" alt="honda">
+                                                        <input type="checkbox" name="nbcc" id="nbcc">
+                                                        <label for="nbcc">NBCC India Ltd (24352)</label>
+                                                    </li>
+                                                    <li class="realestate-hide">
+                                                        <img src="assets/images/icons/daihatsu.png.svg" alt="daihatsu">
+                                                        <input type="checkbox" name="Oberoi" id="Oberoi">
+                                                        <label for="Oberoi">Oberoi Realty Ltd (24352)</label>
+                                                    </li>
+                                                    <li class="realestate-filters-view-more" data-show="View more" data-less="View Less">View more</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="realestate-search-filters pb-30 mb-30">
+                                        <h4>Amenities</h4>
+                                        <div class="realestate-search-filters-list">
+                                            <div class="realestate-search-filters-list">
+                                                <ul class="realestate-search-filters-main-list checkbox">
+                                                    <li>
+                                                        <input type="checkbox" name="air_conduction" id="air_conduction">
+                                                        <label for="air_conduction">Air Conduction (24352)0</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" name="Pool" id="Pool">
+                                                        <label for="Pool">Pool (352)</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" name="unit" id="unit">
+                                                        <label for="unit">In-unit Laundry (52)</label>
+                                                    </li>
+                                                    <li class="realestate-hide">
+                                                        <input type="checkbox" name="Laundries" id="Laundries">
+                                                        <label for="Laundries">In-unit Laundries (52)</label>
+                                                    </li>
+                                                    <li class="realestate-filters-view-more" data-show="View more" data-less="View Less">View more</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="realestate-search-filters pb-30 mb-30">
+                                        <h4>View</h4>
+                                        <div class="realestate-search-filters-list">
+                                            <div class="realestate-search-filters-list">
+                                                <ul class="realestate-search-filters-main-list checkbox">
+                                                    <li>
+                                                        <input type="checkbox" name="views_City" id="views_City">
+                                                        <label for="views_City">City (24352)</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" name="mountains" id="mountains">
+                                                        <label for="mountains">Mountains (352)</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" name="park" id="park">
+                                                        <label for="park">Park (52)</label>
+                                                    </li>
+                                                    <li class="realestate-hide">
+                                                        <input type="checkbox" name="villages" id="villages">
+                                                        <label for="villages">Villages</label>
+                                                    </li>
+                                                    <li class="realestate-filters-view-more" data-show="View more" data-less="View Less">View more</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="realestate-search-filters pb-30 mb-30">
+                                        <h4>Bedrooms</h4>
+                                        <div class="realestate-search-filters-dropdown mb-20">
+                                            <label for="realestate-min_bed">min</label>
+                                            <select class="select2" id="realestate-min_bed" name="min_bed">
+                                                <option value="Any" disabled selected>Any</option>
+                                                <option value="single">Single</option>
+                                                <option value="2_Beds">2 Beds</option>
+                                                <option value="3_Beds">3 Beds</option>
+                                                <option value="4 Beds">4 Beds</option>
+                                            </select>
+                                        </div>
+                                        <div class="realestate-search-filters-dropdown">
+                                            <label for="realestate-max_bed">Max</label>
+                                            <select class="select2" id="realestate-max_bed" name="max_bed">
+                                                <option value="Any" disabled selected>Any</option>
+                                                <option value="single">Single</option>
+                                                <option value="10_Beds">10 Beds</option>
+                                                <option value="12_Beds">12 Beds</option>
+                                                <option value="15 Beds">15 Beds</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="realestate-search-filters pb-30 mb-30">
+                                        <h4>Bathrooms</h4>
+                                        <div class="realestate-search-filters-dropdown">
+                                            <label for="realestate-min_bath">min</label>
+                                            <select class="select2" id="realestate-min_bath" name="min_bath">
+                                                <option value="Any" disabled selected>Any</option>
+                                                <option value="single">Single</option>
+                                                <option value="2_Beds">2 Beds</option>
+                                                <option value="3_Beds">3 Beds</option>
+                                                <option value="4 Beds">4 Beds</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="realestate-search-filters pb-30 mb-30">
+                                        <h4>size</h4>
+                                        <div class="realestate-search-filters-dropdown mb-20">
+                                            <label for="realestate-min_size">min</label>
+                                            <select class="select2" id="realestate-min_size" name="min_size">
+                                                <option value="Any" disabled selected>Any</option>
+                                                <option value="500_sqft">500 sqft</option>
+                                                <option value="750_sqft">750 sqft</option>
+                                                <option value="1000_sqft">1000 sqft</option>
+                                                <option value="1250_sqft">1250 sqft</option>
+                                                <option value="1500_sqft">1500 sqft</option>
+                                                <option value="2000_sqft">2000 sqft</option>
+                                            </select>
+                                        </div>
+                                        <div class="realestate-search-filters-dropdown">
+                                            <label for="realestate-max_size">min</label>
+                                            <select class="select2" id="realestate-max_size" name="max_size">
+                                                <option value="Any" disabled selected>Any</option>
+                                                <option value="1000_sqft">1000 sqft</option>
+                                                <option value="1500_sqft">1500 sqft</option>
+                                                <option value="2000_sqft">2000 sqft</option>
+                                                <option value="2500_sqft">2500 sqft</option>
+                                                <option value="3000_sqft">3000 sqft</option>
+                                                <option value="3500_sqft">3500 sqft</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="realestate-search-filters pb-30 mb-30">
+                                        <h4>New or established property</h4>
+                                        <div class="realestate-search-filters-list">
+                                            <div class="realestate-search-filters-list">
+                                                <ul class="realestate-search-filters-main-list checkbox">
+                                                    <li>
+                                                        <input type="checkbox" name="All_types" id="All_types">
+                                                        <label for="All_types">All types (24352)</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" name="new_established" id="new_established">
+                                                        <label for="new_established">new (352)</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" name="established" id="established">
+                                                        <label for="established">Established (52)</label>
+                                                    </li>
+                                                    <li class="realestate-filters-view-more" data-show="View more" data-less="View Less">View more</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="realestate-search-filters pb-30 mb-30">
+                                        <h4>Indoor Featurest</h4>
+                                        <div class="realestate-search-filters-list">
+                                            <div class="realestate-search-filters-list">
+                                                <ul class="realestate-search-filters-main-list checkbox">
+                                                    <li>
+                                                        <input type="checkbox" name="Ensuite" id="Ensuite">
+                                                        <label for="Ensuite">Ensuite (24352)</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" name="Dishwasher" id="Dishwasher">
+                                                        <label for="Dishwasher">Dishwasher (352)</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" name="Study" id="Study">
+                                                        <label for="Study">Study (52)</label>
+                                                    </li>
+                                                    <li class="realestate-filters-view-more" data-show="View more" data-less="View Less">View more</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="realestate-close-filters  d-lg-none d-md-block">
+                                    <button class="realestate-not-filled-btn">Close Filters</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-10  position-relative realestate-archive-container">
+                            <div class="realestate-archive-content-container">
+                                <div class="realestate-archive-content-header">
+                                    <div class="realestate-archive-info-and-actions d-sm-flex align-items-center flex-wrap justify-content-between">
+                                        <div class="realestate-archive-actions d-sm-flex align-items-center flex-wrap justify-content-start">
+                                            <div class="realestate-archive-sort">
+                                                <label for="realestate-sorting-filter">Sort by: </label>
+                                                <select id="realestate-sorting-filter" class="realestate-orderby" name="realestate_orderby">
+                                                    <option value="">Sort By</option>
+                                                    <option class="option" selected="" value="">Most relevant</option>
+                                                    <option class="option" value="DESC">Newest</option>
+                                                    <option class="option" value="ASC">Oldest</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="realestate-images-filter d-flex align-items-center">
+                                            <div class="realestate-field-checkbox d-flex align-items-center"><input type="checkbox" id="Only-with-photos" class="custom-control-input  form-control " value="Only-with-photos"><label class="position-relative" for="Only-with-photos">Only with photos</label></div>
+                                            <div id="get-ads-count" data-name-text="ads" data-text-in="in">
+                                                <p>
+                                                    10,000+ Properties in UK
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="realestate-search-result-output realestate-grid">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 mt-20 realestate-archive-loop">
+                                        <div class="realestate-item loop-style1">
+                                            <div class="real-listings-post-item">
+                                                <div class="real-listings-post-thumbnail">
+                                                    <div class="post-img loop-style1-grid-slider">
+                                                        <img src="assets/images/480x440.png" alt="loop-style1-grid-slider">
+                                                    </div>
+                                                    <div class="post-for rent">
+                                                        <span>For Rent</span>
+                                                    </div>
+
+                                                    
+                                                    <div class="realestate-save-posts">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                    <a href="single.html" class="realestate-strech-link position-absolute"></a>
+                                                </div>
+                                                <div class="real-listings-post-content">
+                                                    <div class="post-price">
+                                                        <span> $200</span>
+                                                    </div>
+                                                    <div class="post-title">
+                                                        <a href="single.html">
+                                                            <h2>City Cruises - New York</h2>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="post-location">
+                                                        <span class="p-md"><img src="assets/images/icons/map.svg"
+                                                                alt="pin">New
+                                                            York,
+                                                            NY</span>
+                                                    </div>
+                                                    <div class="post-details">
+                                                        <ul>
+                                                            <li><span><img src="assets/images/icons/bed.svg"
+                                                                        alt="bed"></span> 4 bed</li>
+                                                            <li><span><img src="assets/images/icons/bath.svg"
+                                                                        alt="bed"></span>2 bath </li>
+                                                            <li><span><img src="assets/images/icons/car.svg"
+                                                                        alt="bed"></span>Parking</li>
+                                                            <li><span><img src="assets/images/icons/area.svg"
+                                                                        alt="bed"></span>6,974 sqft</li>
+                                                            <li><span><img src="assets/images/icons/golf.svg"
+                                                                        alt="bed"></span>Golf course</li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="realestate-post-quick-actions">
+                                                        <a href="#" class="realestate-request-tour">Request a
+                                                            tour</a>
+                                                        <a href="#" class="realestate-whatsapp">
+                                                            <i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                                    </div>
+                                                    <div class="realestate-post-hidden-menus">
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="realestate-quick d-inline-flex d-lg-flex realestate-dropdown">
+                                                                    <p>
+                                                                        Share <i class="fa-solid fa-share" aria-hidden="true"></i>
+                                                                    </p>
+
+                                                                    <div class="realestate-dropdown-items realestate-social-share">
+                                                                        <ul>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-youtube"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-twitter"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-instagram"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <p>
+                                                                        Hide <i class="fa-regular fa-eye-slash"></i>
+                                                                    </p>
+                                                                </a>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 mt-20 realestate-archive-loop photos">
+                                        <div class="realestate-item loop-style1">
+                                            <div class="real-listings-post-item">
+                                                <div class="real-listings-post-thumbnail">
+                                                    <div class="post-img loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder4.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder4.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/480x440.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder2.png" alt="loop-style1-grid-slider">
+                                                    </div>
+                                                    <div class="post-for rent">
+                                                        <span>For Rent</span>
+                                                    </div>
+
+                                                    
+                                                    <div class="realestate-save-posts">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                    <a href="single.html" class="realestate-strech-link position-absolute"></a>
+                                                </div>
+                                                <div class="real-listings-post-content">
+                                                    <div class="post-price">
+                                                        <span> $250</span>
+                                                    </div>
+                                                    <div class="post-title">
+                                                        <a href="single.html">
+                                                            <h2>Luxury Haven - New York</h2>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="post-location">
+                                                        <span class="p-md"><img src="assets/images/icons/map.svg"
+                                                                alt="pin"> 1101 New
+                                                            York,
+                                                            NY</span>
+                                                    </div>
+                                                    <div class="post-details">
+                                                        <ul>
+                                                            <li><span><img src="assets/images/icons/bed.svg"
+                                                                        alt="bed"></span> 6 bed</li>
+                                                            <li><span><img src="assets/images/icons/bath.svg"
+                                                                        alt="bed"></span>3 bath </li>
+                                                            <li><span><img src="assets/images/icons/car.svg"
+                                                                        alt="bed"></span>Parking</li>
+                                                            <li><span><img src="assets/images/icons/area.svg"
+                                                                        alt="bed"></span>3,974 sqft</li>
+                                                            <li><span><img src="assets/images/icons/golf.svg"
+                                                                        alt="bed"></span>Golf course</li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="realestate-post-quick-actions">
+                                                        <a href="#" class="realestate-request-tour">Request a
+                                                            tour</a>
+                                                        <a href="#" class="realestate-whatsapp">
+                                                            <i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                                    </div>
+                                                    <div class="realestate-post-hidden-menus">
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="realestate-quick d-inline-flex d-lg-flex realestate-dropdown">
+                                                                    <p>
+                                                                        Share <i class="fa-solid fa-share" aria-hidden="true"></i>
+                                                                    </p>
+
+                                                                    <div class="realestate-dropdown-items realestate-social-share">
+                                                                        <ul>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-youtube"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-twitter"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-instagram"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <p>
+                                                                        Hide <i class="fa-regular fa-eye-slash"></i>
+                                                                    </p>
+                                                                </a>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 mt-20 realestate-archive-loop">
+                                        <div class="realestate-item loop-style1">
+                                            <div class="real-listings-post-item">
+                                                <div class="real-listings-post-thumbnail">
+                                                    <div class="post-img loop-style1-grid-slider">
+                                                        <img src="assets/images/480x440.png" alt="loop-style1-grid-slider">
+                                                    </div>
+                                                    <div class="post-for rent">
+                                                        <span>For Rent</span>
+                                                    </div>
+
+                                                    
+                                                    <div class="realestate-save-posts">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                    <a href="single.html" class="realestate-strech-link position-absolute"></a>
+                                                </div>
+                                                <div class="real-listings-post-content">
+                                                    <div class="post-price">
+                                                        <span> $400</span>
+                                                    </div>
+                                                    <div class="post-title">
+                                                        <a href="single.html">
+                                                            <h2> Elegant Escape- New York</h2>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="post-location">
+                                                        <span class="p-md"><img src="assets/images/icons/map.svg"
+                                                                alt="pin"> 2301 ST New
+                                                            York,
+                                                            NY</span>
+                                                    </div>
+                                                    <div class="post-details">
+                                                        <ul>
+                                                            <li><span><img src="assets/images/icons/bed.svg"
+                                                                        alt="bed"></span> 8 bed</li>
+                                                            <li><span><img src="assets/images/icons/bath.svg"
+                                                                        alt="bed"></span>4 bath </li>
+                                                            <li><span><img src="assets/images/icons/car.svg"
+                                                                        alt="bed"></span>Parking</li>
+                                                            <li><span><img src="assets/images/icons/area.svg"
+                                                                        alt="bed"></span>8,396 sqft</li>
+                                                            <li><span><img src="assets/images/icons/golf.svg"
+                                                                        alt="bed"></span>Golf course</li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="realestate-post-quick-actions">
+                                                        <a href="#" class="realestate-request-tour">Request a
+                                                            tour</a>
+                                                        <a href="#" class="realestate-whatsapp">
+                                                            <i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                                    </div>
+                                                    <div class="realestate-post-hidden-menus">
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="realestate-quick d-inline-flex d-lg-flex realestate-dropdown">
+                                                                    <p>
+                                                                        Share <i class="fa-solid fa-share" aria-hidden="true"></i>
+                                                                    </p>
+
+                                                                    <div class="realestate-dropdown-items realestate-social-share">
+                                                                        <ul>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-youtube"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-twitter"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-instagram"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <p>
+                                                                        Hide <i class="fa-regular fa-eye-slash"></i>
+                                                                    </p>
+                                                                </a>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 mt-20 realestate-archive-loop photos">
+                                        <div class="realestate-item loop-style1">
+                                            <div class="real-listings-post-item">
+                                                <div class="real-listings-post-thumbnail">
+                                                    <div class="post-img loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder4.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder2.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder2.png" alt="loop-style1-grid-slider">
+                                                    </div>
+                                                    <div class="post-for rent">
+                                                        <span>For Rent</span>
+                                                    </div>
+900
+                                                    
+                                                    <div class="realestate-save-posts">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                    <a href="single.html" class="realestate-strech-link position-absolute"></a>
+                                                </div>
+                                                <div class="real-listings-post-content">
+                                                    <div class="post-price">
+                                                        <span> $520</span>
+                                                    </div>
+                                                    <div class="post-title">
+                                                        <a href="single.html">
+                                                            <h2>Tranquil Oasis- New York</h2>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="post-location">
+                                                        <span class="p-md"><img src="assets/images/icons/map.svg"
+                                                                alt="pin"> 56012 ST New
+                                                            York,
+                                                            NY</span>
+                                                    </div>
+                                                    <div class="post-details">
+                                                        <ul>
+                                                            <li><span><img src="assets/images/icons/bed.svg"
+                                                                        alt="bed"></span> 9 bed</li>
+                                                            <li><span><img src="assets/images/icons/bath.svg"
+                                                                        alt="bed"></span>5 bath </li>
+                                                            <li><span><img src="assets/images/icons/car.svg"
+                                                                        alt="bed"></span>Parking</li>
+                                                            <li><span><img src="assets/images/icons/area.svg"
+                                                                        alt="bed"></span>6,340 sqft</li>
+                                                            <li><span><img src="assets/images/icons/golf.svg"
+                                                                        alt="bed"></span>Golf course</li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="realestate-post-quick-actions">
+                                                        <a href="#" class="realestate-request-tour">Request a
+                                                            tour</a>
+                                                        <a href="#" class="realestate-whatsapp">
+                                                            <i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                                    </div>
+                                                    <div class="realestate-post-hidden-menus">
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="realestate-quick d-inline-flex d-lg-flex realestate-dropdown">
+                                                                    <p>
+                                                                        Share <i class="fa-solid fa-share" aria-hidden="true"></i>
+                                                                    </p>
+
+                                                                    <div class="realestate-dropdown-items realestate-social-share">
+                                                                        <ul>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-youtube"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-twitter"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-instagram"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <p>
+                                                                        Hide <i class="fa-regular fa-eye-slash"></i>
+                                                                    </p>
+                                                                </a>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 mt-20 realestate-archive-loop photos">
+                                        <div class="realestate-item loop-style1">
+                                            <div class="real-listings-post-item">
+                                                <div class="real-listings-post-thumbnail">
+                                                    <div class="post-img loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder4.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder4.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/480x440.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder2.png" alt="loop-style1-grid-slider">
+                                                    </div>
+                                                    <div class="post-for rent">
+                                                        <span>For Rent</span>
+                                                    </div>
+
+                                                    
+                                                    <div class="realestate-save-posts">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                    <a href="single.html" class="realestate-strech-link position-absolute"></a>
+                                                </div>
+                                                <div class="real-listings-post-content">
+                                                    <div class="post-price">
+                                                        <span> $715</span>
+                                                    </div>
+                                                    <div class="post-title">
+                                                        <a href="single.html">
+                                                            <h2>Blissful Abode - Londen</h2>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="post-location">
+                                                        <span class="p-md"><img src="assets/images/icons/map.svg"
+                                                                alt="pin">120100 ST New
+                                                            York,
+                                                            NY</span>
+                                                    </div>
+                                                    <div class="post-details">
+                                                        <ul>
+                                                            <li><span><img src="assets/images/icons/bed.svg"
+                                                                        alt="bed"></span> 6 bed</li>
+                                                            <li><span><img src="assets/images/icons/bath.svg"
+                                                                        alt="bed"></span>24bath </li>
+                                                            <li><span><img src="assets/images/icons/car.svg"
+                                                                        alt="bed"></span>Parking</li>
+                                                            <li><span><img src="assets/images/icons/area.svg"
+                                                                        alt="bed"></span>9,874 sqft</li>
+                                                            <li><span><img src="assets/images/icons/golf.svg"
+                                                                        alt="bed"></span>Golf course</li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="realestate-post-quick-actions">
+                                                        <a href="#" class="realestate-request-tour">Request a
+                                                            tour</a>
+                                                        <a href="#" class="realestate-whatsapp">
+                                                            <i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                                    </div>
+                                                    <div class="realestate-post-hidden-menus">
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="realestate-quick d-inline-flex d-lg-flex realestate-dropdown">
+                                                                    <p>
+                                                                        Share <i class="fa-solid fa-share" aria-hidden="true"></i>
+                                                                    </p>
+
+                                                                    <div class="realestate-dropdown-items realestate-social-share">
+                                                                        <ul>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-youtube"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-twitter"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-instagram"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <p>
+                                                                        Hide <i class="fa-regular fa-eye-slash"></i>
+                                                                    </p>
+                                                                </a>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 mt-20 realestate-archive-loop photos">
+                                        <div class="realestate-item loop-style1">
+                                            <div class="real-listings-post-item">
+                                                <div class="real-listings-post-thumbnail">
+                                                    <div class="post-img loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder4.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder2.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder2.png" alt="loop-style1-grid-slider">
+                                                    </div>
+                                                    <div class="post-for rent">
+                                                        <span>For Rent</span>
+                                                    </div>
+
+                                                    
+                                                    <div class="realestate-save-posts">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                    <a href="single.html" class="realestate-strech-link position-absolute"></a>
+                                                </div>
+                                                <div class="real-listings-post-content">
+                                                    <div class="post-price">
+                                                        <span> $360</span>
+                                                    </div>
+                                                    <div class="post-title">
+                                                        <a href="single.html">
+                                                            <h2>Harmony Haven - Oxford Street</h2>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="post-location">
+                                                        <span class="p-md"><img src="assets/images/icons/map.svg"
+                                                                alt="pin">42101 Oxford Street </span>
+                                                    </div>
+                                                    <div class="post-details">
+                                                        <ul>
+                                                            <li><span><img src="assets/images/icons/bed.svg"
+                                                                        alt="bed"></span> 5 bed</li>
+                                                            <li><span><img src="assets/images/icons/bath.svg"
+                                                                        alt="bed"></span>2 bath </li>
+                                                            <li><span><img src="assets/images/icons/car.svg"
+                                                                        alt="bed"></span>Parking</li>
+                                                            <li><span><img src="assets/images/icons/area.svg"
+                                                                        alt="bed"></span>9,361 sqft</li>
+                                                            <li><span><img src="assets/images/icons/golf.svg"
+                                                                        alt="bed"></span>Golf course</li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="realestate-post-quick-actions">
+                                                        <a href="#" class="realestate-request-tour">Request a
+                                                            tour</a>
+                                                        <a href="#" class="realestate-whatsapp">
+                                                            <i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                                    </div>
+                                                    <div class="realestate-post-hidden-menus">
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="realestate-quick d-inline-flex d-lg-flex realestate-dropdown">
+                                                                    <p>
+                                                                        Share <i class="fa-solid fa-share" aria-hidden="true"></i>
+                                                                    </p>
+
+                                                                    <div class="realestate-dropdown-items realestate-social-share">
+                                                                        <ul>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-youtube"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-twitter"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-instagram"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <p>
+                                                                        Hide <i class="fa-regular fa-eye-slash"></i>
+                                                                    </p>
+                                                                </a>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 mt-20 realestate-archive-loop">
+                                        <div class="realestate-item loop-style1">
+                                            <div class="real-listings-post-item">
+                                                <div class="real-listings-post-thumbnail">
+                                                    <div class="post-img loop-style1-grid-slider">
+                                                        <img src="assets/images/480x440.png" alt="loop-style1-grid-slider">
+                                                    </div>
+                                                    <div class="post-for rent">
+                                                        <span>For Rent</span>
+                                                    </div>
+
+                                                    
+                                                    <div class="realestate-save-posts">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                    <a href="single.html" class="realestate-strech-link position-absolute"></a>
+                                                </div>
+                                                <div class="real-listings-post-content">
+                                                    <div class="post-price">
+                                                        <span> $330</span>
+                                                    </div>
+                                                    <div class="post-title">
+                                                        <a href="single.html">
+                                                            <h2>Enchanted Villa</h2>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="post-location">
+                                                        <span class="p-md"><img src="assets/images/icons/map.svg"
+                                                                alt="pin">Abbey Road Londen</span>
+                                                    </div>
+                                                    <div class="post-details">
+                                                        <ul>
+                                                            <li><span><img src="assets/images/icons/bed.svg"
+                                                                        alt="bed"></span> 3 bed</li>
+                                                            <li><span><img src="assets/images/icons/bath.svg"
+                                                                        alt="bed"></span>2 bath </li>
+                                                            <li><span><img src="assets/images/icons/car.svg"
+                                                                        alt="bed"></span>Parking</li>
+                                                            <li><span><img src="assets/images/icons/area.svg"
+                                                                        alt="bed"></span>5,320 sqft</li>
+                                                            <li><span><img src="assets/images/icons/golf.svg"
+                                                                        alt="bed"></span>Golf course</li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="realestate-post-quick-actions">
+                                                        <a href="#" class="realestate-request-tour">Request a
+                                                            tour</a>
+                                                        <a href="#" class="realestate-whatsapp">
+                                                            <i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                                    </div>
+                                                    <div class="realestate-post-hidden-menus">
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="realestate-quick d-inline-flex d-lg-flex realestate-dropdown">
+                                                                    <p>
+                                                                        Share <i class="fa-solid fa-share" aria-hidden="true"></i>
+                                                                    </p>
+
+                                                                    <div class="realestate-dropdown-items realestate-social-share">
+                                                                        <ul>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-youtube"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-twitter"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-instagram"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <p>
+                                                                        Hide <i class="fa-regular fa-eye-slash"></i>
+                                                                    </p>
+                                                                </a>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 mt-20 realestate-archive-loop photos">
+                                        <div class="realestate-item loop-style1">
+                                            <div class="real-listings-post-item">
+                                                <div class="real-listings-post-thumbnail">
+                                                    <div class="post-img loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder4.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder4.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/480x440.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder2.png" alt="loop-style1-grid-slider">
+                                                    </div>
+                                                    <div class="post-for rent">
+                                                        <span>For Rent</span>
+                                                    </div>
+
+                                                    
+                                                    <div class="realestate-save-posts">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                    <a href="single.html" class="realestate-strech-link position-absolute"></a>
+                                                </div>
+                                                <div class="real-listings-post-content">
+                                                    <div class="post-price">
+                                                        <span> $400</span>
+                                                    </div>
+                                                    <div class="post-title">
+                                                        <a href="single.html">
+                                                            <h2>Opulent Hideaway Londen</h2>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="post-location">
+                                                        <span class="p-md"><img src="assets/images/icons/map.svg"
+                                                                alt="pin"> 10102 Carnaby Street</span>
+                                                    </div>
+                                                    <div class="post-details">
+                                                        <ul>
+                                                            <li><span><img src="assets/images/icons/bed.svg"
+                                                                        alt="bed"></span> 6 bed</li>
+                                                            <li><span><img src="assets/images/icons/bath.svg"
+                                                                        alt="bed"></span>3 bath </li>
+                                                            <li><span><img src="assets/images/icons/car.svg"
+                                                                        alt="bed"></span>Parking</li>
+                                                            <li><span><img src="assets/images/icons/area.svg"
+                                                                        alt="bed"></span>4,636 sqft</li>
+                                                            <li><span><img src="assets/images/icons/golf.svg"
+                                                                        alt="bed"></span>Golf course</li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="realestate-post-quick-actions">
+                                                        <a href="#" class="realestate-request-tour">Request a
+                                                            tour</a>
+                                                        <a href="#" class="realestate-whatsapp">
+                                                            <i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                                    </div>
+                                                    <div class="realestate-post-hidden-menus">
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="realestate-quick d-inline-flex d-lg-flex realestate-dropdown">
+                                                                    <p>
+                                                                        Share <i class="fa-solid fa-share" aria-hidden="true"></i>
+                                                                    </p>
+
+                                                                    <div class="realestate-dropdown-items realestate-social-share">
+                                                                        <ul>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-youtube"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-twitter"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-instagram"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <p>
+                                                                        Hide <i class="fa-regular fa-eye-slash"></i>
+                                                                    </p>
+                                                                </a>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 mt-20 realestate-archive-loop">
+                                        <div class="realestate-item loop-style1">
+                                            <div class="real-listings-post-item">
+                                                <div class="real-listings-post-thumbnail">
+                                                    <div class="post-img loop-style1-grid-slider">
+                                                        <img src="assets/images/480x440.png" alt="loop-style1-grid-slider">
+                                                    </div>
+                                                    <div class="post-for rent">
+                                                        <span>For Rent</span>
+                                                    </div>
+
+                                                    
+                                                    <div class="realestate-save-posts">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                    <a href="single.html" class="realestate-strech-link position-absolute"></a>
+                                                </div>
+                                                <div class="real-listings-post-content">
+                                                    <div class="post-price">
+                                                        <span> $580</span>
+                                                    </div>
+                                                    <div class="post-title">
+                                                        <a href="single.html">
+                                                            <h2>Majestic Manor Londen</h2>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="post-location">
+                                                        <span class="p-md"><img src="assets/images/icons/map.svg"
+                                                                alt="pin"> 1011 Baker Street </span>
+                                                    </div>
+                                                    <div class="post-details">
+                                                        <ul>
+                                                            <li><span><img src="assets/images/icons/bed.svg"
+                                                                        alt="bed"></span> 3 bed</li>
+                                                            <li><span><img src="assets/images/icons/bath.svg"
+                                                                        alt="bed"></span>3 bath </li>
+                                                            <li><span><img src="assets/images/icons/car.svg"
+                                                                        alt="bed"></span>Parking</li>
+                                                            <li><span><img src="assets/images/icons/area.svg"
+                                                                        alt="bed"></span>3,404 sqft</li>
+                                                            <li><span><img src="assets/images/icons/golf.svg"
+                                                                        alt="bed"></span>Golf course</li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="realestate-post-quick-actions">
+                                                        <a href="#" class="realestate-request-tour">Request a
+                                                            tour</a>
+                                                        <a href="#" class="realestate-whatsapp">
+                                                            <i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                                    </div>
+                                                    <div class="realestate-post-hidden-menus">
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="realestate-quick d-inline-flex d-lg-flex realestate-dropdown">
+                                                                    <p>
+                                                                        Share <i class="fa-solid fa-share" aria-hidden="true"></i>
+                                                                    </p>
+
+                                                                    <div class="realestate-dropdown-items realestate-social-share">
+                                                                        <ul>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-youtube"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-twitter"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-instagram"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <p>
+                                                                        Hide <i class="fa-regular fa-eye-slash"></i>
+                                                                    </p>
+                                                                </a>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 mt-20 realestate-archive-loop photos">
+                                        <div class="realestate-item loop-style1">
+                                            <div class="real-listings-post-item">
+                                                <div class="real-listings-post-thumbnail">
+                                                    <div class="post-img loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder4.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder2.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder2.png" alt="loop-style1-grid-slider">
+                                                    </div>
+                                                    <div class="post-for rent">
+                                                        <span>For Rent</span>
+                                                    </div>
+
+                                                    
+                                                    <div class="realestate-save-posts">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                    <a href="single.html" class="realestate-strech-link position-absolute"></a>
+                                                </div>
+                                                <div class="real-listings-post-content">
+                                                    <div class="post-price">
+                                                        <span> $450</span>
+                                                    </div>
+                                                    <div class="post-title">
+                                                        <a href="single.html">
+                                                            <h2>Paradise Palace Londen</h2>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="post-location">
+                                                        <span class="p-md"><img src="assets/images/icons/map.svg"
+                                                                alt="pin">Shaftesbury Avenue Londen</span>
+                                                    </div>
+                                                    <div class="post-details">
+                                                        <ul>
+                                                            <li><span><img src="assets/images/icons/bed.svg"
+                                                                        alt="bed"></span> 7 bed</li>
+                                                            <li><span><img src="assets/images/icons/bath.svg"
+                                                                        alt="bed"></span>4 bath </li>
+                                                            <li><span><img src="assets/images/icons/car.svg"
+                                                                        alt="bed"></span>Parking</li>
+                                                            <li><span><img src="assets/images/icons/area.svg"
+                                                                        alt="bed"></span>8,340 sqft</li>
+                                                            <li><span><img src="assets/images/icons/golf.svg"
+                                                                        alt="bed"></span>Golf course</li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="realestate-post-quick-actions">
+                                                        <a href="#" class="realestate-request-tour">Request a
+                                                            tour</a>
+                                                        <a href="#" class="realestate-whatsapp">
+                                                            <i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                                    </div>
+                                                    <div class="realestate-post-hidden-menus">
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="realestate-quick d-inline-flex d-lg-flex realestate-dropdown">
+                                                                    <p>
+                                                                        Share <i class="fa-solid fa-share" aria-hidden="true"></i>
+                                                                    </p>
+
+                                                                    <div class="realestate-dropdown-items realestate-social-share">
+                                                                        <ul>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-youtube"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-twitter"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-instagram"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <p>
+                                                                        Hide <i class="fa-regular fa-eye-slash"></i>
+                                                                    </p>
+                                                                </a>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 mt-20 realestate-archive-loop photos">
+                                        <div class="realestate-item loop-style1">
+                                            <div class="real-listings-post-item">
+                                                <div class="real-listings-post-thumbnail">
+                                                    <div class="post-img loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder4.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder4.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/480x440.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder2.png" alt="loop-style1-grid-slider">
+                                                    </div>
+                                                    <div class="post-for rent">
+                                                        <span>For Rent</span>
+                                                    </div>
+
+                                                    
+                                                    <div class="realestate-save-posts">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                    <a href="single.html" class="realestate-strech-link position-absolute"></a>
+                                                </div>
+                                                <div class="real-listings-post-content">
+                                                    <div class="post-price">
+                                                        <span> $420</span>
+                                                    </div>
+                                                    <div class="post-title">
+                                                        <a href="single.html">
+                                                            <h2>Grand Retreat Londen</h2>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="post-location">
+                                                        <span class="p-md"><img src="assets/images/icons/map.svg"
+                                                                alt="pin">Downing Street Londen</span>
+                                                    </div>
+                                                    <div class="post-details">
+                                                        <ul>
+                                                            <li><span><img src="assets/images/icons/bed.svg"
+                                                                        alt="bed"></span> 5 bed</li>
+                                                            <li><span><img src="assets/images/icons/bath.svg"
+                                                                        alt="bed"></span>3 bath </li>
+                                                            <li><span><img src="assets/images/icons/car.svg"
+                                                                        alt="bed"></span>Parking</li>
+                                                            <li><span><img src="assets/images/icons/area.svg"
+                                                                        alt="bed"></span>6,340 sqft</li>
+                                                            <li><span><img src="assets/images/icons/golf.svg"
+                                                                        alt="bed"></span>Golf course</li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="realestate-post-quick-actions">
+                                                        <a href="#" class="realestate-request-tour">Request a
+                                                            tour</a>
+                                                        <a href="#" class="realestate-whatsapp">
+                                                            <i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                                    </div>
+                                                    <div class="realestate-post-hidden-menus">
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="realestate-quick d-inline-flex d-lg-flex realestate-dropdown">
+                                                                    <p>
+                                                                        Share <i class="fa-solid fa-share" aria-hidden="true"></i>
+                                                                    </p>
+
+                                                                    <div class="realestate-dropdown-items realestate-social-share">
+                                                                        <ul>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-youtube"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-twitter"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-instagram"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <p>
+                                                                        Hide <i class="fa-regular fa-eye-slash"></i>
+                                                                    </p>
+                                                                </a>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 mt-20 realestate-archive-loop photos">
+                                        <div class="realestate-item loop-style1">
+                                            <div class="real-listings-post-item">
+                                                <div class="real-listings-post-thumbnail">
+                                                    <div class="post-img loop-style1-grid-slider">
+                                                        <img src="assets/images/480x440.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/480x440.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/480x440.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/480x440.png" alt="loop-style1-grid-slider">
+                                                        <img src="assets/images/realestate-placeholder2.png" alt="loop-style1-grid-slider">
+                                                    </div>
+                                                    <div class="post-for rent">
+                                                        <span>For Rent</span>
+                                                    </div>
+
+                                                    
+                                                    <div class="realestate-save-posts">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                    <a href="single.html" class="realestate-strech-link position-absolute"></a>
+                                                </div>
+                                                <div class="real-listings-post-content">
+                                                    <div class="post-price">
+                                                        <span> $390</span>
+                                                    </div>
+                                                    <div class="post-title">
+                                                        <a href="single.html">
+                                                            <h2>CExquisite Estate Londen</h2>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="post-location">
+                                                        <span class="p-md"><img src="assets/images/icons/map.svg"
+                                                                alt="pin">Portobello Road Londen</span>
+                                                    </div>
+                                                    <div class="post-details">
+                                                        <ul>
+                                                            <li><span><img src="assets/images/icons/bed.svg"
+                                                                        alt="bed"></span> 3 bed</li>
+                                                            <li><span><img src="assets/images/icons/bath.svg"
+                                                                        alt="bed"></span>2 bath </li>
+                                                            <li><span><img src="assets/images/icons/car.svg"
+                                                                        alt="bed"></span>Parking</li>
+                                                            <li><span><img src="assets/images/icons/area.svg"
+                                                                        alt="bed"></span>1,420 sqft</li>
+                                                            <li><span><img src="assets/images/icons/golf.svg"
+                                                                        alt="bed"></span>Golf course</li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="realestate-post-quick-actions">
+                                                        <a href="#" class="realestate-request-tour">Request a
+                                                            tour</a>
+                                                        <a href="#" class="realestate-whatsapp">
+                                                            <i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                                                    </div>
+                                                    <div class="realestate-post-hidden-menus">
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="realestate-quick d-inline-flex d-lg-flex realestate-dropdown">
+                                                                    <p>
+                                                                        Share <i class="fa-solid fa-share" aria-hidden="true"></i>
+                                                                    </p>
+
+                                                                    <div class="realestate-dropdown-items realestate-social-share">
+                                                                        <ul>
+                                                                            <li><a href="#"><i
+                                                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-youtube"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-twitter"></i></a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"><i
+                                                                                        class="fa-brands fa-instagram"></i></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <p>
+                                                                        Hide <i class="fa-regular fa-eye-slash"></i>
+                                                                    </p>
+                                                                </a>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="realestate-archive-results-pagination text-center mt-40">
+                                    <button class="realestate-archive-results-pagination-triger">View all ads</button>
+                                </div>
+                                <div class="realestate-archive-loader" style="display: none;">
+                                    <div class="loader"></div>
+                                </div>
+                            </div>
+                            <div class="realestate-archive-content-map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer-style1">
+            <div id="realestate-footer" class="footer-main-contentr pt-80 pb-50">
+                <div class="container">
+                    <div class="row real-estate-blogs">
+                        <div class="col-sm-12  col-md-6 col-lg-3">
+                            <div class="realestate-footer-sidebar">
+                                <div class="realestate-footer-details">
+                                    <a class="realestate-footer-logo" href="02-home-modern.html">
+                                        <img src="assets/images/logo.png" alt="footer-logo">
+                                    </a>
+                                    <ul class="realetate-footer-details">
+                                        <li><i class="fa-solid fa-location-dot"></i>
+                                            <span>Realtor Office Building 5F</span><br> 123 Anywhere St., Any City, 12345 Any State
+                                        </li>
+                                        <li><i class="fa-solid fa-phone"></i><a href="tel:123-456-7890">123-456-7890</a>
+                                        </li>
+                                        <li><i class="fa-solid fa-envelope"></i><a href="mailto:support@RealEstatePro.com">support@RealEstatePro.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6  col-lg-3">
+                            <div class="realestate-footer-sidebar">
+                                <h2>Quick Links</h2>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Guide</a></li>
+                                    <li><a href="#">Support Center </a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-12  col-md-6 col-lg-3">
+                            <div class="realestate-footer-sidebar">
+                                <h2>Discover</h2>
+                                <ul>
+                                    <li><a href="#">Asia</a></li>
+                                    <li><a href="#">Africa</a></li>
+                                    <li><a href="#">America</a></li>
+                                    <li><a href="#">Australia</a></li>
+                                    <li><a href="#">Europe</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="realestate-footer-sidebar">
+                                <h2>Get the latest information about <br> properties from Real Estate Pro</h2>
+                                <div class="realestate-footer-sidebar-form">
+                                    <form id="realestate-suscribe-news" action="02-home-modern.html" method="post">
+                                        <div class="realestate-subscriber-content">
+                                            <input type="text" class="form-control realestate-input" id="realestate-suscribeer-email" placeholder="Enter your email here">
+                                            <button type="submit" class="realestate-subscrip-btn">Subscribe</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="realestate-bottom" class="footer-bottom-contentr">
+                <div class="container">
+                    <div class="row border-top-1  pt-40 pb-40">
+                        <div class="col-lg-6 col-md-1">
+                            <div class="realestate-footer-socials">
+                                <p>Follow Us</p>
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-1">
+                            <div class="realestate-sub-footer-nav-menus">
+                                <ul>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li> <a href="#">Term & Conditions</a> </li>
+                                    <li> <a href="#">Cookie Policy</a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="realestate-offcanvas-navigation">
+        <div class="offcanvas-header">
+            <div class="realestate-header-logo">
+                <a href="02-home-modern.html">
+                    <img loading="lazy" src="assets/images/realestatepro_logo_dark.png" alt="realestate-logo">
+                </a>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="realestate-sidebar-body">
+            <ul class="realestate-navigation-nav-menus">
+                <li><a href="#">Home <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="01-home-classic.html">Home 1</a></li>
+                        <li><a href="02-home-modern.html">Home 2</a></li>
+                        <li><a href="03-home-dir.html">Home 3</a></li>
+                        <li><a href="04-home-commercial.html">Home 4</a></li>
+                        <li><a href="05-home-brokerage1.html">Home 5</a></li>
+                        <li><a href="06-home-brokerage2.html">Home 6</a></li>
+                        <li><a href="07-home-dir.html">Home 7</a></li>
+                        <li><a href="08-leadgen.html">Home 8</a></li>
+                        <li><a href="09-home-hybrid.html">Home 9</a></li>
+                        <li><a href="10-home-condo.html">Home 10</a></li>
+                        <li><a href="11-home-single-project.html">Home 11</a></li>
+                        <li><a href="12-home-luxury.html">Home 12</a>
+                        <li><a href="13-home-solo.html">Home 13</a></li>
+                    </ul> 
+                </li>
+                <li><a href="#">Archive  <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="sub-menu">
+                         <li><a href="archive.html">Style 1</a></li>
+                        <li><a href="archive-style1.html">Style 2</a></li>
+                        <li><a href="archive-style2.html">Style 3</a></li>
+                        <li><a href="archive-style3.html">Style 4</a></li> 
+                        <li><a href="archive-style5.html">Style 5</a></li>
+                        <li><a href="archive-style6.html">Style 6</a></li>
+                        <li><a href="solo-archive.html">Style 7</a></li>
+                        <li><a href="archive-agent.html">Style 8</a></li>
+                        <li><a href="archive-agent2.html">Style 9</a></li>
+                        <li><a href="archive-agency.html">Style 10</a></li>
+                        <li><a href="archive-agency2.html">Style 11</a></li>
+                        <li><a href="home8-archive.html">Style 12</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Listing <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="single.html">Style 1</a></li>
+                        <li><a href="single2.html">Style 2</a></li>
+                        <li><a href="solo-single.html">Style 3</a></li>
+                        <li><a href="single-agent.html">Style 4</a></li>
+                        <li><a href="single-agency.html">Style 5</a></li><li><a href="home8-single.html">Style 6</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Others<i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="sub-menu"> 
+                        <li><a href="submit-listing.html">Listing Submission</a></li>
+                        <li><a href="realestate-plans.html">Pricing Plans</a></li>
+                        <li><a href="claim-listing.html">Claim Submission</a></li>
+                        <li><a href="login-form.html">Registeration</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- all JS files includes  -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/lib/select2/select2.min.js"></script>
+    <script src="assets/lib/slick/slick.js"></script>
+    <script src="assets/lib/pretty-photo/js/jquery.prettyPhoto.js"></script>
+    <script src="assets/lib/sticky-kit/jquery.sticky-kit.min.js"></script>
+    <!-- loop style 1 -->
+    <script src="assets/js/loop/property/style1.js"></script>
+    <script src="assets/js/realestate-scripts.js"></script>
+    <script src="assets/js/realestate-archive.js"></script>
+    <script src="assets/lib/jquery-ui/jquery-ui.js"></script>
+</body>
+
+</html>

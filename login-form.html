@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/home.png">
+    <title>Realestate</title>
+
+    <!-- all lib files includes  -->
+    <!-- Fontawesome Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/fontawesome/css/regular.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/fontawesome/css/brands.min.css">
+
+    <!-- Fontawesome Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/css/bootstrap.min.css">
+    <!-- PrettyPhotos Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/pretty-photo/css/prettyPhoto.css">
+    <!-- Slick Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/slick/slick.css">
+    <!-- Fonts Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/realestate-font-family.css">
+    <!-- Select2 Files  -->
+    <link rel="stylesheet" type="text/css" href="assets/lib/select2/select2.min.css">
+
+    <!-- Realestate main file  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/realestate-header.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/realestate-element.css">
+    <!-- loop property style 1 -->
+    <link rel="stylesheet" type="text/css" href="assets/css/loop/property/style-1.css">
+    <!-- Blog loop  style 1 -->
+    <link rel="stylesheet" type="text/css" href="assets/css/loop/blogs/loop-style1.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/realestate-styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/realestate-footer.css">
+
+
+</head>
+
+<body id="realestate-content"> 
+    <div id="content" class="site-content">
+        <div   id="realestate-login-modal">
+            <div class="modal-dialog realestate-login-page  realestate-login-modal  modal-fullscreen modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="realestate-login-form-content">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12 d-lg-flex d-none align-items-center">
+                                <div class="realestate-login-form-content-title">
+                                    <a href="02-home-modern.html">
+                                        <img loading="lazy" src="assets/images/logo.png" alt="realestate-logo">
+                                    </a>
+                                    <h2>Ready to List The Property</h2>
+                                    <p>Login to get access to managing your property effortlessly..</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-12">
+                                <div class="realestate-login-form"> 
+                                    <div class="realestate-login-form-signup">
+                                        <h3>Sign Up</h3>
+                                        <ul class="signup-tabs">
+                                            <li class="active" data-userType="personal">For Personal</li>
+                                            <li data-userType="professional">For Professional</li>
+                                        </ul>
+                                        <form action="#" method="post" id="signup-personal"
+                                            class="realestate-user-logins personal">
+                                            <div class="realestate-user-logins-group">
+                                                <label for="personal_email">Email</label>
+                                                <input type="email" name="personal_email" id="personal_email"
+                                                    placeholder="example@email.com">
+                                            </div>
+                                            <div class="realestate-user-logins-group">
+                                                <label for="personal_password">Password</label>
+                                                <input type="password" name="personal_password" id="personal_password"
+                                                    placeholder="***********">
+                                                <i class="fa-solid fa-eye-slash"></i>
+                                                <div class="forget-option">
+                                                    <p class="realestate-forget-pasword">Forgot password?</p>
+                                                </div>
+                                            </div>
+                                            <div class="realestate-user-logins-group-checkbox">
+                                                <input type="checkbox" name="personal_privacy" id="personal_privacy">
+                                                <label for="personal_privacy">By selecting Continue, you agree to our <a
+                                                        href="#">Terms of Service</a> and acknowledge our <a
+                                                        href="#">Privacy Policy</a>.</label>
+                                            </div>
+                                            <input type="submit" value="Sign Up">
+                                        </form>
+                                        <form action="#" method="post" id="signup-professional"
+                                            class="realestate-user-logins professional realestate-hide">
+                                            <div class="realestate-user-logins-group">
+                                                <label for="professional_email">Email</label>
+                                                <input type="email" name="professional_email" id="professional_email"
+                                                    placeholder="example@email.com">
+                                            </div>
+                                            <div class="realestate-user-logins-group">
+                                                <label for="professional_username">User Name</label>
+                                                <input type="text" name="professional_username" id="professional_username"
+                                                    placeholder="John due">
+                                            </div>
+                                            <div class="realestate-user-logins-group">
+                                                <label for="professional_username">Number</label>
+                                                <input type="number" name="professional_number" id="professional_number"
+                                                    placeholder="+44">
+                                            </div>
+                                            <div class="realestate-user-logins-group">
+                                                <label for="professional_password">Password</label>
+                                                <input type="password" name="professional_password"
+                                                    id="professional_password" placeholder="***********">
+                                                <i class="fa-solid fa-eye-slash"></i>
+                                                <div class="forget-option">
+                                                    <p class="realestate-forget-pasword">Forgot password?</p>
+                                                </div>
+                                            </div>
+                                            <div class="realestate-user-logins-group-checkbox">
+                                                <input type="checkbox" name="professional_privacy"
+                                                    id="professional_privacy">
+                                                <label for="professional_privacy">By selecting Continue, you agree to our <a
+                                                        href="#">Terms of Service</a> and acknowledge our <a
+                                                        href="#">Privacy Policy</a>.</label>
+                                            </div>
+                                            <input type="submit" value="Sign Up">
+                                        </form>
+                                        <div class="form-saprater">
+                                            <p>or</p>
+                                        </div>
+                                        <div class="realestate-user-social-logins">
+                                            <a href="#"><i class="fa-brands fa-google"></i> Sign in with Google</a>
+                                            <p class="login-user-form-show user-signup-form-triger">Have an account?
+                                                <span>Login</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="realestate-login-form-signup realestate-hide">
+                                        <h3>Login</h3>
+                                        <form action="#" method="post" id="signin-user"
+                                            class="realestate-user-logins login ">
+                                            <div class="realestate-user-logins-group">
+                                                <label for="email">Email</label>
+                                                <input type="email" name="email" id="email" placeholder="example@email.com">
+                                            </div>
+                                            <div class="realestate-user-logins-group">
+                                                <label for="password">Password</label>
+                                                <input type="password" name="password" id="password"
+                                                    placeholder="***********">
+                                                <i class="fa-solid fa-eye-slash"></i>
+                                                <div class="forget-option">
+                                                    <p class="realestate-forget-pasword">Forgot password?</p>
+                                                </div>
+                                            </div>
+                                            <div class="realestate-user-logins-group-checkbox">
+                                                <input type="checkbox" name="privacy" id="privacy">
+                                                <label for="privacy">By selecting Continue, you agree to our <a
+                                                        href="#">Terms of Service</a> and acknowledge our <a
+                                                        href="#">Privacy Policy</a>.</label>
+                                            </div>
+                                            <input type="submit" value="Sign In">
+                                        </form>
+                                        <div class="form-saprater">
+                                            <p>or</p>
+                                        </div>
+                                        <div class="realestate-user-social-logins">
+                                            <a href="#"><i class="fa-brands fa-google"></i> Sign in with Google</a>
+                                            <p class="login-user-form-show user-login-form-triger">Have not an account?
+                                                <span>Sign Up</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="realestate-login-form-image" src="assets/images/login-form-image.png" alt="login">
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <!-- login model  -->
+    <!-- Modal Structure -->
+
+
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="realestate-offcanvas-navigation">
+        <div class="offcanvas-header">
+            <div class="realestate-header-logo">
+                <a href="02-home-modern.html">
+                    <img loading="lazy" src="assets/images/realestatepro_logo_dark.png" alt="realestate-logo">
+                </a>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="realestate-sidebar-body">
+            <ul class="realestate-navigation-nav-menus">
+                <li><a href="#">Home <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="01-home-classic.html">Home 1</a></li>
+                        <li><a href="02-home-modern.html">Home 2</a></li>
+                        <li><a href="03-home-dir.html">Home 3</a></li>
+                        <li><a href="04-home-commercial.html">Home 4</a></li>
+                        <li><a href="05-home-brokerage1.html">Home 5</a></li>
+                        <li><a href="06-home-brokerage2.html">Home 6</a></li>
+                        <li><a href="07-home-dir.html">Home 7</a></li>
+                        <li><a href="08-leadgen.html">Home 8</a></li>
+                        <li><a href="09-home-hybrid.html">Home 9</a></li>
+                        <li><a href="10-home-condo.html">Home 10</a></li>
+                        <li><a href="11-home-single-project.html">Home 11</a></li>
+                        <li><a href="12-home-luxury.html">Home 12</a>
+                        <li><a href="13-home-solo.html">Home 13</a></li>
+                    </ul> 
+                </li>
+                <li><a href="#">Archive  <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="sub-menu">
+                         <li><a href="archive.html">Style 1</a></li>
+                        <li><a href="archive-style1.html">Style 2</a></li>
+                        <li><a href="archive-style2.html">Style 3</a></li>
+                        <li><a href="archive-style3.html">Style 4</a></li> 
+                        <li><a href="archive-style5.html">Style 5</a></li>
+                        <li><a href="archive-style6.html">Style 6</a></li>
+                        <li><a href="solo-archive.html">Style 7</a></li>
+                        <li><a href="archive-agent.html">Style 8</a></li>
+                        <li><a href="archive-agent2.html">Style 9</a></li>
+                        <li><a href="archive-agency.html">Style 10</a></li>
+                        <li><a href="archive-agency2.html">Style 11</a></li>
+                        <li><a href="home8-archive.html">Style 12</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Listing <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="single.html">Style 1</a></li>
+                        <li><a href="single2.html">Style 2</a></li>
+                        <li><a href="solo-single.html">Style 3</a></li>
+                        <li><a href="single-agent.html">Style 4</a></li>
+                        <li><a href="single-agency.html">Style 5</a></li><li><a href="home8-single.html">Style 6</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Others<i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="sub-menu"> 
+                        <li><a href="submit-listing.html">Listing Submission</a></li>
+                        <li><a href="realestate-plans.html">Pricing Plans</a></li>
+                        <li><a href="claim-listing.html">Claim Submission</a></li>
+                        <li><a href="login-form.html">Registeration</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- all JS files includes  -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/lib/select2/select2.min.js"></script>
+    <script src="assets/lib/slick/slick.js"></script>
+    <script src="assets/lib/pretty-photo/js/jquery.prettyPhoto.js"></script>
+    <script src="assets/lib/sticky-kit/jquery.sticky-kit.min.js"></script>
+    <script src="assets/lib/counters/jquery.countup.js"></script>
+    <script src="assets/lib/counters/jquery.waypoints.min.js"></script>
+    <script src="assets/js/realestate-scripts.js"></script>
+    <!-- loop style 1 -->
+    <script src="assets/js/loop/property/style1.js"></script>
+</body>
+
+</html>
